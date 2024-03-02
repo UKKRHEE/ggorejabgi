@@ -1,0 +1,1052 @@
+if = {
+	limit = {
+		has_country_flag = GGORI_RED
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_ORANGE
+			has_country_flag = GGORI_YELLOW
+			has_country_flag = GGORI_GREEN
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_RED
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_ORANGE
+			has_country_flag = GGORI_YELLOW
+			has_country_flag = GGORI_GREEN
+			has_country_flag = GGORI_BLUE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_RED
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_ORANGE
+			has_country_flag = GGORI_YELLOW
+			has_country_flag = GGORI_GREEN
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_RED
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_ORANGE
+			has_country_flag = GGORI_YELLOW
+		}	
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_RED
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_ORANGE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_RED
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			exists = yes is_puppet = no
+		}
+	}
+}
+###################
+if = {
+	limit = {
+		has_country_flag = GGORI_BROWN
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_RED
+			has_country_flag = GGORI_ORANGE
+			has_country_flag = GGORI_YELLOW
+			has_country_flag = GGORI_GREEN
+			has_country_flag = GGORI_BLUE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_BROWN
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_RED
+			has_country_flag = GGORI_ORANGE
+			has_country_flag = GGORI_YELLOW
+			has_country_flag = GGORI_GREEN
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_BROWN
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_RED
+			has_country_flag = GGORI_ORANGE
+			has_country_flag = GGORI_YELLOW
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_BROWN
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_RED
+			has_country_flag = GGORI_ORANGE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_BROWN
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_RED
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_BROWN
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			exists = yes is_puppet = no
+		}
+	}
+}
+###################
+if = {
+	limit = {
+		has_country_flag = GGORI_PURPLE
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+			has_country_flag = GGORI_ORANGE
+			has_country_flag = GGORI_YELLOW
+			has_country_flag = GGORI_GREEN
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_PURPLE
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+			has_country_flag = GGORI_ORANGE
+			has_country_flag = GGORI_YELLOW
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_PURPLE
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+			has_country_flag = GGORI_ORANGE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_PURPLE
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_PURPLE
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_BROWN
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_PURPLE
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			exists = yes is_puppet = no
+		}
+	}
+}
+####################
+if = {
+	limit = {
+		has_country_flag = GGORI_BLUE
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+			has_country_flag = GGORI_ORANGE
+			has_country_flag = GGORI_YELLOW
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_BLUE
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+			has_country_flag = GGORI_ORANGE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_BLUE
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_BLUE
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_BLUE
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_PURPLE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_BLUE
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			exists = yes is_puppet = no
+		}
+	}
+}
+#########################
+if = {
+	limit = {
+		has_country_flag = GGORI_GREEN
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+			has_country_flag = GGORI_ORANGE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_GREEN
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_GREEN
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_GREEN
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_GREEN
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_BLUE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_GREEN
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			exists = yes is_puppet = no
+		}
+	}
+}
+#########################
+if = {
+	limit = {
+		has_country_flag = GGORI_YELLOW
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_GREEN
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_YELLOW
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_GREEN
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_YELLOW
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_GREEN
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_YELLOW
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_GREEN
+			has_country_flag = GGORI_BLUE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_YELLOW
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_GREEN
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_YELLOW
+		any_country = {
+			has_country_flag = GGORI_ORANGE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			exists = yes is_puppet = no
+		}
+	}
+}
+#########################
+if = {
+	limit = {
+		has_country_flag = GGORI_ORANGE
+		any_country = {
+			has_country_flag = GGORI_RED
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_YELLOW
+			has_country_flag = GGORI_GREEN
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+			has_country_flag = GGORI_RED
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_ORANGE
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_YELLOW
+			has_country_flag = GGORI_GREEN
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+			has_country_flag = GGORI_BROWN
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_ORANGE
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_YELLOW
+			has_country_flag = GGORI_GREEN
+			has_country_flag = GGORI_BLUE
+			has_country_flag = GGORI_PURPLE
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_ORANGE
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_YELLOW
+			has_country_flag = GGORI_GREEN
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_ORANGE
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			exists = yes is_puppet = no
+		}
+	}
+	FROM = {
+		NOT = {
+			has_country_flag = GGORI_YELLOW
+		}
+	}
+}
+if = {
+	limit = {
+		has_country_flag = GGORI_ORANGE
+		any_country = {
+			has_country_flag = GGORI_RED
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BROWN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_PURPLE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_BLUE
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_GREEN
+			OR = { exists = no is_puppet = yes }
+		}
+		any_country = {
+			has_country_flag = GGORI_YELLOW
+			exists = yes is_puppet = no
+		}
+	}
+}
