@@ -36,13 +36,6 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_plain_bg"
 		}
 		#######################
-
-		iconType = {
-			name ="ggore_help_icon"
-			spriteType = "GFX_help_button"
-			position = { x = 1000 y = 50 }
-			pdx_tooltip = "ggore_help_tt"
-		}
 		
 		containerWindowType = {
 			name = "double_leader_system_popup_ui_window_test"
@@ -57,6 +50,12 @@ guiTypes = {
 				maxHeight = 20
 				format = center
 				vertical_alignment = center
+			}
+			iconType = {
+				name ="ggore_help_icon"
+				spriteType = "GFX_help_button"
+				position = { x = 960 y = 15 }
+				pdx_tooltip = "ggore_help_tt"
 			}
 			
 			buttonType = {
