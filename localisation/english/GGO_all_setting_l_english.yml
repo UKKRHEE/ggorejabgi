@@ -21,6 +21,15 @@
  LOC_COUNTRY_GGORI_PURPLE:0 "[ROOT.GetName]"
  LOC_COUNTRY_GGORI_BROWN:0 "[ROOT.GetName]"
  
+ GGORI_RED:0 "빨간색"
+ GGORI_ORANGE:0 "주황색"
+ GGORI_YELLOW:0 "노랑색"
+ GGORI_GREEN:0 "초록색"
+ GGORI_BLUE:0 "파랑색"
+ GGORI_PURPLE:0 "보라색"
+ GGORI_BROWN:0 "갈색"
+ empty:0 ""
+
  ###########
  ggori.1.title:0 "빨간색"
  ggori.1.desc:0 "당신은 빨간색입니다. \n\n빨강-주황-노랑-초록-파랑-보라-갈색-빨강 순서대로 유저를 고로시하세요!\n\n자신의 다음 색 꼬리를 가진 국가를 침공해야하며 승리하였다면 다다음 색 꼬리를 가진 국가를 침공해야 합니다. \n 마지막 까지 생존한 국가가 게임에서 승리합니다."
