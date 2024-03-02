@@ -1,0 +1,94 @@
+scripted_map_modes = {
+	GGO_map_mode = {
+		top = {	type = none }
+		bottom = {
+			type = country
+			color = {
+				FROM = {
+					if = {
+						limit = {
+							has_country_flag = GGORI_RED
+						}
+						set_temp_variable = { red = 255 }
+						divide_temp_variable = { red = 255 }
+						set_temp_variable = { green = 0 }
+						divide_temp_variable = { green = 255 }
+						set_temp_variable = { blue = 36 }
+						divide_temp_variable = { blue = 255 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GGORI_ORANGE
+						}
+						set_temp_variable = { red = 255 }
+						divide_temp_variable = { red = 255 }
+						set_temp_variable = { green = 116 }
+						divide_temp_variable = { green = 255 }
+						set_temp_variable = { blue = 0 }
+						divide_temp_variable = { blue = 255 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GGORI_YELLOW
+						}
+						set_temp_variable = { red = 255 }
+						divide_temp_variable = { red = 255 }
+						set_temp_variable = { green = 240 }
+						divide_temp_variable = { green = 255 }
+						set_temp_variable = { blue = 0 }
+						divide_temp_variable = { blue = 255 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GGORI_blue
+						}
+						set_temp_variable = { red = 0 }
+						divide_temp_variable = { red = 255 }
+						set_temp_variable = { green = 96 }
+						divide_temp_variable = { green = 255 }
+						set_temp_variable = { blue = 255 }
+						divide_temp_variable = { blue = 255 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GGORI_green
+						}
+						set_temp_variable = { red = 0 }
+						divide_temp_variable = { red = 255 }
+						set_temp_variable = { green = 255 }
+						divide_temp_variable = { green = 255 }
+						set_temp_variable = { blue = 11 }
+						divide_temp_variable = { blue = 255 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GGORI_PURPLE
+						}
+						set_temp_variable = { red = 151 }
+						divide_temp_variable = { red = 255 }
+						set_temp_variable = { green = 0 }
+						divide_temp_variable = { green = 255 }
+						set_temp_variable = { blue = 255 }
+						divide_temp_variable = { blue = 255 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GGORI_BROWN
+						}
+						set_temp_variable = { red = 173 }
+						divide_temp_variable = { red = 255 }
+						set_temp_variable = { green = 116 }
+						divide_temp_variable = { green = 255 }
+						set_temp_variable = { blue = 82 }
+						divide_temp_variable = { blue = 255 }
+					}
+				}
+				set_temp_variable = { alpha = 0.95 }
+			}
+		}
+
+		far_text = country
+		near_text = none
+		update_daily = no
+	}
+}
