@@ -8,6 +8,99 @@ scripted_map_modes = {
 					if = {
 						limit = {
 							has_country_flag = GGORI_RED
+							OR = {
+								ROOT = {
+									has_country_flag = GGORI_RED
+								}
+								ROOT = {
+									has_country_flag = GGORI_ORANGE
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_YELLOW
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_GREEN
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_BLUE
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_PURPLE
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_BROWN
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+							}
 						}
 						set_temp_variable = { red = 255 }
 						divide_temp_variable = { red = 255 }
@@ -16,9 +109,102 @@ scripted_map_modes = {
 						set_temp_variable = { blue = 36 }
 						divide_temp_variable = { blue = 255 }
 					}
-					else_if = {
+					if = {
 						limit = {
 							has_country_flag = GGORI_ORANGE
+							OR = {
+								ROOT = {
+									has_country_flag = GGORI_ORANGE
+								}
+								ROOT = {
+									has_country_flag = GGORI_YELLOW
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_GREEN
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_BLUE
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_PURPLE
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_BROWN
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_RED
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+							}
 						}
 						set_temp_variable = { red = 255 }
 						divide_temp_variable = { red = 255 }
@@ -27,9 +213,102 @@ scripted_map_modes = {
 						set_temp_variable = { blue = 0 }
 						divide_temp_variable = { blue = 255 }
 					}
-					else_if = {
+					if = {
 						limit = {
 							has_country_flag = GGORI_YELLOW
+							OR = {
+								ROOT = {
+									has_country_flag = GGORI_YELLOW
+								}
+								ROOT = {
+									has_country_flag = GGORI_GREEN
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_BLUE
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_PURPLE
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_BROWN
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_RED
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_ORANGE
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+							}
 						}
 						set_temp_variable = { red = 255 }
 						divide_temp_variable = { red = 255 }
@@ -38,20 +317,102 @@ scripted_map_modes = {
 						set_temp_variable = { blue = 0 }
 						divide_temp_variable = { blue = 255 }
 					}
-					else_if = {
+					if = {
 						limit = {
-							has_country_flag = GGORI_blue
-						}
-						set_temp_variable = { red = 0 }
-						divide_temp_variable = { red = 255 }
-						set_temp_variable = { green = 96 }
-						divide_temp_variable = { green = 255 }
-						set_temp_variable = { blue = 255 }
-						divide_temp_variable = { blue = 255 }
-					}
-					else_if = {
-						limit = {
-							has_country_flag = GGORI_green
+							has_country_flag = GGORI_GREEN
+							OR = {
+								ROOT = {
+									has_country_flag = GGORI_GREEN
+								}
+								ROOT = {
+									has_country_flag = GGORI_BLUE
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_PURPLE
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_BROWN
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_RED
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_ORANGE
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_YELLOW
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+							}
 						}
 						set_temp_variable = { red = 0 }
 						divide_temp_variable = { red = 255 }
@@ -60,9 +421,206 @@ scripted_map_modes = {
 						set_temp_variable = { blue = 11 }
 						divide_temp_variable = { blue = 255 }
 					}
-					else_if = {
+					if = {
+						limit = {
+							has_country_flag = GGORI_BLUE
+							OR = {
+								ROOT = {
+									has_country_flag = GGORI_BLUE
+								}
+								ROOT = {
+									has_country_flag = GGORI_PURPLE
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_BROWN
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_RED
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_ORANGE
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_YELLOW
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_GREEN
+									}
+									any_country = {
+										has_country_flag = GGORI_PURPLE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+							}
+						}
+						set_temp_variable = { red = 0 }
+						divide_temp_variable = { red = 255 }
+						set_temp_variable = { green = 96 }
+						divide_temp_variable = { green = 255 }
+						set_temp_variable = { blue = 255 }
+						divide_temp_variable = { blue = 255 }
+					}
+					if = {
 						limit = {
 							has_country_flag = GGORI_PURPLE
+							OR = {
+								ROOT = {
+									has_country_flag = GGORI_PURPLE
+								}
+								ROOT = {
+									has_country_flag = GGORI_BROWN
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_RED
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_ORANGE
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_YELLOW
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_GREEN
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_BLUE
+									}
+									any_country = {
+										has_country_flag = GGORI_BROWN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+							}
 						}
 						set_temp_variable = { red = 151 }
 						divide_temp_variable = { red = 255 }
@@ -71,9 +629,102 @@ scripted_map_modes = {
 						set_temp_variable = { blue = 255 }
 						divide_temp_variable = { blue = 255 }
 					}
-					else_if = {
+					if = {
 						limit = {
 							has_country_flag = GGORI_BROWN
+							OR = {
+								ROOT = {
+									has_country_flag = GGORI_BROWN
+								}
+								ROOT = {
+									has_country_flag = GGORI_RED
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_ORANGE
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_YELLOW
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_GREEN
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_BLUE
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+								AND = {
+									ROOT = {
+										has_country_flag = GGORI_PURPLE
+									}
+									any_country = {
+										has_country_flag = GGORI_RED
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_ORANGE
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_YELLOW
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_GREEN
+										OR = { exists = no is_puppet = yes }
+									}
+									any_country = {
+										has_country_flag = GGORI_BLUE
+										OR = { exists = no is_puppet = yes }
+									}
+								}
+							}
 						}
 						set_temp_variable = { red = 173 }
 						divide_temp_variable = { red = 255 }
