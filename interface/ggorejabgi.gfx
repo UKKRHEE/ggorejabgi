@@ -1,0 +1,153 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GGO_setting_gui"
+		texturefile = "gfx/interface/GGORI/GGO_setting_gui.png"
+	}
+	spriteType = {
+		name = "GFX_ggore_RED_shine"
+		texturefile = "gfx/interface/GGO_RED.png"
+		animation = {
+			animationmaskfile = "gfx/interface/GGO_RED.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -100.0
+			animationlooping = yes
+			animationtime = 3.5
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ggore_RED"
+		texturefile = "gfx/interface/GGO_RED.png"
+	}
+	spriteType = {
+		name = "GFX_ggore_ORANGE"
+		texturefile = "gfx/interface/GGO_ORANGE.png"
+	}
+	spriteType = {
+		name = "GFX_ggore_ORANGE_shine"
+		texturefile = "gfx/interface/GGO_ORANGE.png"
+		animation = {
+			animationmaskfile = "gfx/interface/GGO_ORANGE.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -100.0
+			animationlooping = yes
+			animationtime = 3.5
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ggore_YELLOW"
+		texturefile = "gfx/interface/GGO_YELLOW.png"
+	}
+	spriteType = {
+		name = "GFX_ggore_YELLOW_shine"
+		texturefile = "gfx/interface/GGO_YELLOW.png"
+		animation = {
+			animationmaskfile = "gfx/interface/GGO_YELLOW.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -100.0
+			animationlooping = yes
+			animationtime = 3.5
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ggore_GREEN"
+		texturefile = "gfx/interface/GGO_GREEN.png"
+	}
+	spriteType = {
+		name = "GFX_ggore_GREEN_shine"
+		texturefile = "gfx/interface/GGO_GREEN.png"
+		animation = {
+			animationmaskfile = "gfx/interface/GGO_GREEN.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -100.0
+			animationlooping = yes
+			animationtime = 3.5
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ggore_BLUE"
+		texturefile = "gfx/interface/GGO_BLUE.png"
+	}
+	spriteType = {
+		name = "GFX_ggore_BLUE_shine"
+		texturefile = "gfx/interface/GGO_BLUE.png"
+		animation = {
+			animationmaskfile = "gfx/interface/GGO_BLUE.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -100.0
+			animationlooping = yes
+			animationtime = 3.5
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ggore_PUPLE"
+		texturefile = "gfx/interface/GGO_PUPLE.png"
+	}
+	spriteType = {
+		name = "GFX_ggore_PUPLE_shine"
+		texturefile = "gfx/interface/GGO_PUPLE.png"
+		animation = {
+			animationmaskfile = "gfx/interface/GGO_PUPLE.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -100.0
+			animationlooping = yes
+			animationtime = 3.5
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ggore_BROWN"
+		texturefile = "gfx/interface/GGO_BROWN.png"
+	}
+	spriteType = {
+		name = "GFX_ggore_BROWN_shine"
+		texturefile = "gfx/interface/GGO_BROWN.png"
+		animation = {
+			animationmaskfile = "gfx/interface/GGO_BROWN.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -100.0
+			animationlooping = yes
+			animationtime = 3.5
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+}

@@ -1,0 +1,55 @@
+﻿l_english:
+
+ ggore_help_tt:0 "꼬리잡기 규칙 \n 플레이어는 각각 자신의 꼬리색을 가지며 꼬리의 방향은 빨강-주황-노랑-초록-파랑-보라-갈색 순서로 돌아가며 플레이어는 자신의 다음 색 꼬리를 가진 국가를 침공해야하며 승리하였다면 다다음 색 꼬리를 가진 국가를 침공해야 합니다. \n 마지막 까지 생존한 국가가 게임에서 승리합니다 \n \n \n §x절대 한 꼬리에 두 국가이상 선택하지 마세요. 게임 터집니다."
+ 
+ 
+ 
+ ###########
+ GGO_NAME_RED:0 "[LOC_COUNTRY_GGORI_RED]"
+ GGO_NAME_ORANGE:0 "[LOC_COUNTRY_GGORI_ORANGE]"
+ GGO_NAME_YELLOW:0 "[LOC_COUNTRY_GGORI_YELLOW]"
+ GGO_NAME_GREEN:0 "[LOC_COUNTRY_GGORI_GREEN]"
+ GGO_NAME_BLUE:0 "[LOC_COUNTRY_GGORI_BLUE]"
+ GGO_NAME_PURPLE:0 "[LOC_COUNTRY_GGORI_PURPLE]"
+ GGO_NAME_BROWN:0 "[LOC_COUNTRY_GGORI_BROWN]"
+ 
+ LOC_COUNTRY_GGORI_RED:0 "[ROOT.GetName]"
+ LOC_COUNTRY_GGORI_ORANGE:0 "[ROOT.GetName]"
+ LOC_COUNTRY_GGORI_YELLOW:0 "[ROOT.GetName]"
+ LOC_COUNTRY_GGORI_GREEN:0 "[ROOT.GetName]"
+ LOC_COUNTRY_GGORI_BLUE:0 "[ROOT.GetName]"
+ LOC_COUNTRY_GGORI_PURPLE:0 "[ROOT.GetName]"
+ LOC_COUNTRY_GGORI_BROWN:0 "[ROOT.GetName]"
+ 
+ ###########
+ ggori.1.title:0 "빨간색"
+ ggori.1.desc:0 "당신은 빨간색입니다. \n\n빨강-주황-노랑-초록-파랑-보라-갈색-빨강 순서대로 유저를 고로시하세요!\n\n자신의 다음 색 꼬리를 가진 국가를 침공해야하며 승리하였다면 다다음 색 꼬리를 가진 국가를 침공해야 합니다. \n 마지막 까지 생존한 국가가 게임에서 승리합니다."
+ ggori.1.a:0 "옛 썰~"
+ 
+ ggori.2.title:0 "주황색"
+ ggori.2.desc:0 "당신은 주황색입니다. \n\n빨강-주황-노랑-초록-파랑-보라-갈색-빨강 순서대로 유저를 고로시하세요!\n\n자신의 다음 색 꼬리를 가진 국가를 침공해야하며 승리하였다면 다다음 색 꼬리를 가진 국가를 침공해야 합니다. \n 마지막 까지 생존한 국가가 게임에서 승리합니다."
+ ggori.2.a:0 "옛 썰~"
+ 
+ ggori.3.title:0 "노랑색"
+ ggori.3.desc:0 "당신은 노랑색입니다. \n\n빨강-주황-노랑-초록-파랑-보라-갈색-빨강 순서대로 유저를 고로시하세요!\n\n자신의 다음 색 꼬리를 가진 국가를 침공해야하며 승리하였다면 다다음 색 꼬리를 가진 국가를 침공해야 합니다. \n 마지막 까지 생존한 국가가 게임에서 승리합니다."
+ ggori.3.a:0 "옛 썰~"
+ 
+ ggori.4.title:0 "초록색"
+ ggori.4.desc:0 "당신은 초록색입니다. \n\n빨강-주황-노랑-초록-파랑-보라-갈색-빨강 순서대로 유저를 고로시하세요!\n\n자신의 다음 색 꼬리를 가진 국가를 침공해야하며 승리하였다면 다다음 색 꼬리를 가진 국가를 침공해야 합니다. \n 마지막 까지 생존한 국가가 게임에서 승리합니다."
+ ggori.4.a:0 "옛 썰~"
+ 
+ ggori.5.title:0 "파랑색"
+ ggori.5.desc:0 "당신은 파랑색입니다. \n\n빨강-주황-노랑-초록-파랑-보라-갈색-빨강 순서대로 유저를 고로시하세요!\n\n자신의 다음 색 꼬리를 가진 국가를 침공해야하며 승리하였다면 다다음 색 꼬리를 가진 국가를 침공해야 합니다. \n 마지막 까지 생존한 국가가 게임에서 승리합니다."
+ ggori.5.a:0 "옛 썰~"
+ 
+ ggori.6.title:0 "보라색"
+ ggori.6.desc:0 "당신은 보라색입니다. \n\n빨강-주황-노랑-초록-파랑-보라-갈색-빨강 순서대로 유저를 고로시하세요!\n\n자신의 다음 색 꼬리를 가진 국가를 침공해야하며 승리하였다면 다다음 색 꼬리를 가진 국가를 침공해야 합니다. \n 마지막 까지 생존한 국가가 게임에서 승리합니다."
+ ggori.6.a:0 "옛 썰~"
+ 
+ ggori.7.title:0 "갈색"
+ ggori.7.desc:0 "당신은 갈색입니다. \n\n빨강-주황-노랑-초록-파랑-보라-갈색-빨강 순서대로 유저를 고로시하세요!\n\n자신의 다음 색 꼬리를 가진 국가를 침공해야하며 승리하였다면 다다음 색 꼬리를 가진 국가를 침공해야 합니다. \n 마지막 까지 생존한 국가가 게임에서 승리합니다."
+ ggori.7.a:0 "옛 썰~"
+ 
+ ggori.8.title:0 "로컬 수정하는 중"
+ ggori.8.desc:0 "[GGO_NAME_RED]"
+ ggori.8.a:0 "옛 썰~"

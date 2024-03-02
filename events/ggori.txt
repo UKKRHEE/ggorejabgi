@@ -1,0 +1,199 @@
+add_namespace = ggori
+
+country_event = { #Red Setting
+	id = ggori.1
+	title = ggori.1.title
+	desc = ggori.1.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.1.a
+		set_country_flag = GGORI_RED
+		random_country = {
+			limit = {
+				#is_ai = no
+				NOT = {
+					has_country_flag = GGORI_ORANGE
+					has_country_flag = GGORI_YELLOW
+					has_country_flag = GGORI_GREEN
+					has_country_flag = GGORI_BLUE
+					has_country_flag = GGORI_PURPLE
+					has_country_flag = GGORI_BROWN
+				}
+			}
+			country_event = {
+				id = ggori.2
+			}
+		}
+	}
+}
+country_event = { #Orange Setting
+	id = ggori.2
+	title = ggori.2.title
+	desc = ggori.2.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.2.a
+		set_country_flag = GGORI_ORANGE
+		random_country = {
+			limit = {
+				#is_ai = no
+				NOT = {
+					has_country_flag = GGORI_YELLOW
+					has_country_flag = GGORI_GREEN
+					has_country_flag = GGORI_BLUE
+					has_country_flag = GGORI_PURPLE
+					has_country_flag = GGORI_BROWN
+				}
+			}
+			country_event = {
+				id = ggori.3
+			}
+		}
+	}
+}
+country_event = { #Yellow Setting
+	id = ggori.3
+	title = ggori.3.title
+	desc = ggori.3.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.3.a
+		set_country_flag = GGORI_YELLOW
+		random_country = {
+			limit = {
+				#is_ai = no
+				NOT = {
+					has_country_flag = GGORI_GREEN
+					has_country_flag = GGORI_BLUE
+					has_country_flag = GGORI_PURPLE
+					has_country_flag = GGORI_BROWN
+				}
+			}
+			country_event = {
+				id = ggori.4
+			}
+		}
+	}
+}
+country_event = { #Green Setting
+	id = ggori.4
+	title = ggori.4.title
+	desc = ggori.4.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.4.a
+		set_country_flag = GGORI_GREEN
+		random_country = {
+			limit = {
+				#is_ai = no
+				NOT = {
+					has_country_flag = GGORI_BLUE
+					has_country_flag = GGORI_PURPLE
+					has_country_flag = GGORI_BROWN
+				}
+			}
+			country_event = {
+				id = ggori.5
+			}
+		}
+	}
+}
+country_event = { #Blue Setting
+	id = ggori.5
+	title = ggori.5.title
+	desc = ggori.5.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.5.a
+		set_country_flag = GGORI_BLUE
+		random_country = {
+			limit = {
+				#is_ai = no
+				NOT = {
+					has_country_flag = GGORI_PURPLE
+					has_country_flag = GGORI_BROWN
+				}
+			}
+			country_event = {
+				id = ggori.6
+			}
+		}
+	}
+}
+country_event = { #Purple Setting
+	id = ggori.6
+	title = ggori.6.title
+	desc = ggori.6.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.6.a
+		set_country_flag = GGORI_PURPLE
+		random_country = {
+			limit = {
+				#is_ai = no
+				NOT = {
+					has_country_flag = GGORI_BROWN
+				}
+			}
+			country_event = {
+				id = ggori.7
+			}
+		}
+	}
+}
+country_event = { #Brown Setting
+	id = ggori.7
+	title = ggori.7.title
+	desc = ggori.7.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.7.a
+		set_country_flag = GGORI_BROWN
+	}
+}
+country_event = { #Brown Setting
+	id = ggori.8
+	title = ggori.8.title
+	desc = ggori.8.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.8.a
+	}
+}
+###########
+country_event = { #꼬리잡기 목표 설명
+	id = ggori.1000
+	title = ggori.1000.title
+	desc = ggori.1000.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.1000.a
+	}
+}

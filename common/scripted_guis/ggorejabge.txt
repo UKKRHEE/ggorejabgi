@@ -1,0 +1,306 @@
+scripted_gui = {
+	view_ggore = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "view_ggore_container"
+
+		visible = {
+		}
+		triggers = {
+			view_click_enabled = {
+				NOT = { has_country_flag = show_double_leader }
+			}
+		}
+
+		effects = {
+            view_click = {
+				set_country_flag = show_double_leader
+			}
+		}
+	}
+
+	ggore_main = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_main_container"
+
+		visible = {
+			has_country_flag = show_double_leader
+		}
+		
+		effects = {
+			close_click = {
+				clr_country_flag = show_double_leader
+			}
+		}
+	}
+	##################
+	ggore_red = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_red"
+
+		visible = {
+			has_country_flag = show_double_leader
+			OR = {
+				has_country_flag = GGORI_RED
+				has_country_flag = GGORI_ORANGE
+				has_country_flag = GGORI_YELLOW
+				has_country_flag = GGORI_GREEN
+				has_country_flag = GGORI_BLUE
+				has_country_flag = GGORI_PURPLE
+				has_country_flag = GGORI_BROWN
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_orange = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_orange"
+
+		visible = {
+			has_country_flag = show_double_leader
+			OR = {
+				has_country_flag = GGORI_RED
+				has_country_flag = GGORI_ORANGE
+				has_country_flag = GGORI_YELLOW
+				has_country_flag = GGORI_GREEN
+				has_country_flag = GGORI_BLUE
+				has_country_flag = GGORI_PURPLE
+				has_country_flag = GGORI_BROWN
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_yellow = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_yellow"
+
+		visible = {
+			has_country_flag = show_double_leader
+			OR = {
+				has_country_flag = GGORI_RED
+				has_country_flag = GGORI_ORANGE
+				has_country_flag = GGORI_YELLOW
+				has_country_flag = GGORI_GREEN
+				has_country_flag = GGORI_BLUE
+				has_country_flag = GGORI_PURPLE
+				has_country_flag = GGORI_BROWN
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_green = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_green"
+
+		visible = {
+			has_country_flag = show_double_leader
+			OR = {
+				has_country_flag = GGORI_RED
+				has_country_flag = GGORI_ORANGE
+				has_country_flag = GGORI_YELLOW
+				has_country_flag = GGORI_GREEN
+				has_country_flag = GGORI_BLUE
+				has_country_flag = GGORI_PURPLE
+				has_country_flag = GGORI_BROWN
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_blue = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_blue"
+
+		visible = {
+			has_country_flag = show_double_leader
+			OR = {
+				has_country_flag = GGORI_RED
+				has_country_flag = GGORI_ORANGE
+				has_country_flag = GGORI_YELLOW
+				has_country_flag = GGORI_GREEN
+				has_country_flag = GGORI_BLUE
+				has_country_flag = GGORI_PURPLE
+				has_country_flag = GGORI_BROWN
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_purple = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_purple"
+
+		visible = {
+			has_country_flag = show_double_leader
+			OR = {
+				has_country_flag = GGORI_RED
+				has_country_flag = GGORI_ORANGE
+				has_country_flag = GGORI_YELLOW
+				has_country_flag = GGORI_GREEN
+				has_country_flag = GGORI_BLUE
+				has_country_flag = GGORI_PURPLE
+				has_country_flag = GGORI_BROWN
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_brown = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_brown"
+
+		visible = {
+			has_country_flag = show_double_leader
+			OR = {
+				has_country_flag = GGORI_RED
+				has_country_flag = GGORI_ORANGE
+				has_country_flag = GGORI_YELLOW
+				has_country_flag = GGORI_GREEN
+				has_country_flag = GGORI_BLUE
+				has_country_flag = GGORI_PURPLE
+				has_country_flag = GGORI_BROWN
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	##################
+	ggore_shine_red = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_contain_red"
+
+		visible = {
+			has_country_flag = show_double_leader
+			has_country_flag = GGORI_RED
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_shine_orange = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_contain_orange"
+
+		visible = {
+			has_country_flag = show_double_leader
+			has_country_flag = GGORI_ORANGE
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_shine_yellow = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_contain_yellow"
+
+		visible = {
+			has_country_flag = show_double_leader
+			has_country_flag = GGORI_YELLOW
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_shine_green = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_contain_green"
+
+		visible = {
+			has_country_flag = show_double_leader
+			has_country_flag = GGORI_GREEN
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_shine_blue = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_contain_blue"
+
+		visible = {
+			has_country_flag = show_double_leader
+			has_country_flag = GGORI_BLUE
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_shine_purple = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_contain_purple"
+
+		visible = {
+			has_country_flag = show_double_leader
+			has_country_flag = GGORI_PURPLE
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = yes is_puppet = no
+			}
+		}
+	}
+
+	ggore_shine_brown = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ggore_contain_brown"
+
+		visible = {
+			has_country_flag = show_double_leader
+			has_country_flag = GGORI_BROWN
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = yes is_puppet = no
+			}
+		}
+	}
+	
+}
+

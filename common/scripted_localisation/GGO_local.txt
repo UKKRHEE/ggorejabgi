@@ -1,0 +1,63 @@
+defined_text = {
+    name = GGO_NAME_RED
+    text = {
+        trigger = {
+            has_country_flag = GGORI_RED
+        }
+        localization_key = LOC_COUNTRY_GGORI_RED
+    }
+}
+defined_text = {
+    name = GGO_NAME_ORANGE
+    text = {
+        trigger = {
+            has_country_flag = GGORI_ORANGE
+        }
+        localization_key = LOC_COUNTRY_GGORI_ORANGE
+    }
+}
+defined_text = {
+    name = GGO_NAME_YELLOW
+    text = {
+        trigger = {
+            has_country_flag = GGORI_YELLOW
+        }
+        localization_key = LOC_COUNTRY_GGORI_YELLOW
+    }
+}
+defined_text = {
+    name = GGO_NAME_GREEN
+    text = {
+        trigger = {
+            has_country_flag = GGORI_GREEN
+        }
+        localization_key = LOC_COUNTRY_GGORI_GREEN
+    }
+}
+defined_text = {
+    name = GGO_NAME_BLUE
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BLUE
+        }
+        localization_key = LOC_COUNTRY_GGORI_BLUE
+    }
+}
+defined_text = {
+    name = GGO_NAME_PURPLE
+    text = {
+        trigger = {
+            has_country_flag = GGORI_PURPLE
+        }
+        localization_key = LOC_COUNTRY_GGORI_PURPLE
+    }
+}
+defined_text = {
+    name = GGO_NAME_BROWN
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BROWN
+        }
+        localization_key = LOC_COUNTRY_GGORI_BROWN
+    }
+}
