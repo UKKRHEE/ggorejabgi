@@ -1,26 +1,52 @@
 guiTypes = {
+
 	containerWindowType = {
-		name = "view_ggore_container"
-		size = { width = 95 height = 95 }
-		clipping = no
-		moveable = no
-
-		position = { x = 540 y = 2 }
-
-		background = {
-			name = "double_leader_bg"
-			quadTextureSprite = "GFX_tiled_window_thin_border2"
-
+		name = "ggore_fisc_container"
+		position = { x = 1210 y = 5 }
+		
+		iconType ={
+			name ="View_Background"
+			spriteType = "GFX_generic_box_small"
+			position = { x=0 y=0 }
 		}
 
-		buttonType = {
-			name = "view"
-			position = { x = 17 y = 17 }
-			spriteType = "GFX_GGO_setting_gui"
-			pdx_tooltip = "NAME_SECOND_LEADER"
-			pdx_tooltip_delayed = "테스트용2"
+		instantTextBoxType = {
+			name ="ggore_fisc_text"
+			position = { x = -6 y = 4 }
+			font = "hoi_18mbs"
+			text = "ggore_fisc_text"
+			format = center
+			maxWidth = 100
+			maxHeight = 24
+			fixedsize = yes
+			
+			# pdx_tooltip = "TT_NVX_ECOLITE_treasury_stats"
 		}
 	}
+
+	# containerWindowType = {
+	# 	name = "view_ggore_container"
+	# 	size = { width = 95 height = 95 }
+	# 	clipping = no
+	# 	moveable = no
+
+	# 	position = { x = 540 y = 2 }
+
+	# 	background = {
+	# 		name = "double_leader_bg"
+	# 		quadTextureSprite = "GFX_tiled_window_thin_border2"
+
+	# 	}
+
+	# 	buttonType = {
+	# 		name = "view"
+	# 		position = { x = 17 y = 17 }
+	# 		spriteType = "GFX_GGO_setting_gui"
+	# 		pdx_tooltip = "NAME_SECOND_LEADER"
+	# 		pdx_tooltip_delayed = "테스트용2"
+	# 	}
+	# }
+	
 	containerWindowType = {
 		name = "ggore_main_container"
 		position = { x = 540 y = 80 }

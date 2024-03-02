@@ -1,19 +1,25 @@
 scripted_gui = {
-	view_ggore = {
+	ggore_fisc = {
 		context_type = player_context
-		parent_window_token = politics_tab
-		window_name = "view_ggore_container"
+		parent_window_token = top_bar
+		window_name = "ggore_fisc_container"
 
 		visible = {
 		}
 		triggers = {
-			view_click_enabled = {
+			View_Background_click_enabled = {
+				NOT = { has_country_flag = show_double_leader }
+			}
+			ggore_fisc_text_click_enabled = {
 				NOT = { has_country_flag = show_double_leader }
 			}
 		}
 
 		effects = {
-            view_click = {
+            View_Background_click = {
+				set_country_flag = show_double_leader
+			}
+			ggore_fisc_text_click = {
 				set_country_flag = show_double_leader
 			}
 		}
