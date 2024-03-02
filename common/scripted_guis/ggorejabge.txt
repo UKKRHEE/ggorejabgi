@@ -1,10 +1,11 @@
 scripted_gui = {
 	ggore_fisc = {
 		context_type = player_context
-		parent_window_token = top_bar
+		parent_window_token = politics_tab
 		window_name = "ggore_fisc_container"
 
 		visible = {
+			
 		}
 		triggers = {
 			View_Background_click_enabled = {
