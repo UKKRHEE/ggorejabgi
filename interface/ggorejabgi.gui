@@ -49,11 +49,11 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "ggore_main_container"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
-		moveable = no
+		moveable = yes
 		click_to_front = no
 		show_sound = menu_open_window
 		
@@ -96,7 +96,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "ggore_red"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -115,7 +115,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "ggore_orange"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -134,7 +134,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "ggore_yellow"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -153,7 +153,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "ggore_green"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -171,7 +171,7 @@ guiTypes = {
 	}	
 	containerWindowType = {
 		name = "ggore_blue"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -189,7 +189,7 @@ guiTypes = {
 	}	
 	containerWindowType = {
 		name = "ggore_purple"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -207,7 +207,7 @@ guiTypes = {
 	}	
 	containerWindowType = {
 		name = "ggore_brown"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -226,7 +226,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "ggore_contain_red"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -245,7 +245,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "ggore_contain_orange"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -264,7 +264,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "ggore_contain_yellow"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -283,7 +283,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "ggore_contain_green"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -301,7 +301,7 @@ guiTypes = {
 	}	
 	containerWindowType = {
 		name = "ggore_contain_blue"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -319,7 +319,7 @@ guiTypes = {
 	}	
 	containerWindowType = {
 		name = "ggore_contain_purple"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
@@ -337,7 +337,7 @@ guiTypes = {
 	}	
 	containerWindowType = {
 		name = "ggore_contain_brown"
-		position = { x = 540 y = 80 }
+		position = { x = 0 y = 80 }
 		size = { width = 1000 height = 660 }
 		fade_time = 280
 		fade_type = linear
