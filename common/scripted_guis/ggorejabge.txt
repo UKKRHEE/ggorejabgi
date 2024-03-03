@@ -5,7 +5,7 @@ scripted_gui = {
 		window_name = "ggore_fisc_container"
 
 		visible = {
-			
+			has_country_flag = ggore_on
 		}
 		triggers = {
 			View_Background_click_enabled = {
@@ -14,14 +14,17 @@ scripted_gui = {
 			ggore_fisc_text_click_enabled = {
 				NOT = { has_country_flag = show_double_leader }
 			}
+			gui_alert_visible = { has_country_flag = gui_alert_visible }
 		}
 
 		effects = {
             View_Background_click = {
 				set_country_flag = show_double_leader
+				clr_country_flag = gui_alert_visible
 			}
 			ggore_fisc_text_click = {
 				set_country_flag = show_double_leader
+				clr_country_flag = gui_alert_visible
 			}
 		}
 	}
@@ -62,6 +65,31 @@ scripted_gui = {
 				exists = yes is_puppet = no
 			}
 		}
+
+		effects = {
+			view_red_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_RED
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^0 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
+			}
+		}
 	}
 
 	ggore_orange = {
@@ -83,6 +111,31 @@ scripted_gui = {
 			any_country = {
 				has_country_flag = GGORI_ORANGE
 				exists = yes is_puppet = no
+			}
+		}
+		
+		effects = {
+			view_orange_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_ORANGE
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^1 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
 			}
 		}
 	}
@@ -108,6 +161,31 @@ scripted_gui = {
 				exists = yes is_puppet = no
 			}
 		}
+
+		effects = {
+			view_yellow_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_YELLOW
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^2 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
+			}
+		}
 	}
 
 	ggore_green = {
@@ -129,6 +207,31 @@ scripted_gui = {
 			any_country = {
 				has_country_flag = GGORI_GREEN
 				exists = yes is_puppet = no
+			}
+		}
+
+		effects = {
+			view_green_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_GREEN
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^3 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
 			}
 		}
 	}
@@ -154,6 +257,31 @@ scripted_gui = {
 				exists = yes is_puppet = no
 			}
 		}
+
+		effects = {
+			view_blue_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_BLUE
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^4 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
+			}
+		}
 	}
 
 	ggore_purple = {
@@ -175,6 +303,31 @@ scripted_gui = {
 			any_country = {
 				has_country_flag = GGORI_PURPLE
 				exists = yes is_puppet = no
+			}
+		}
+
+		effects = {
+			view_purple_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_PURPLE
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^5 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
 			}
 		}
 	}
@@ -200,6 +353,31 @@ scripted_gui = {
 				exists = yes is_puppet = no
 			}
 		}
+
+		effects = {
+			view_brown_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_BROWN
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^6 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
+			}
+		}
 	}
 
 	##################
@@ -214,6 +392,31 @@ scripted_gui = {
 			any_country = {
 				has_country_flag = GGORI_RED
 				exists = yes is_puppet = no
+			}
+		}
+
+		effects = {
+			view_red_shine_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_RED
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^0 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
 			}
 		}
 	}
@@ -231,6 +434,31 @@ scripted_gui = {
 				exists = yes is_puppet = no
 			}
 		}
+
+		effects = {
+			view_orange_shine_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_ORANGE
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^1 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
+			}
+		}
 	}
 
 	ggore_shine_yellow = {
@@ -244,6 +472,31 @@ scripted_gui = {
 			any_country = {
 				has_country_flag = GGORI_YELLOW
 				exists = yes is_puppet = no
+			}
+		}
+
+		effects = {
+			view_yellow_shine_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_YELLOW
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^2 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
 			}
 		}
 	}
@@ -261,6 +514,31 @@ scripted_gui = {
 				exists = yes is_puppet = no
 			}
 		}
+		
+		effects = {
+			view_green_shine_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_GREEN
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^3 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
+			}
+		}
 	}
 
 	ggore_shine_blue = {
@@ -274,6 +552,31 @@ scripted_gui = {
 			any_country = {
 				has_country_flag = GGORI_BLUE
 				exists = yes is_puppet = no
+			}
+		}
+
+		effects = {
+			view_blue_shine_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_BLUE
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^4 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
 			}
 		}
 	}
@@ -291,6 +594,31 @@ scripted_gui = {
 				exists = yes is_puppet = no
 			}
 		}
+
+		effects = {
+			view_purple_shine_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_PURPLE
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^5 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
+			}
+		}
 	}
 
 	ggore_shine_brown = {
@@ -304,6 +632,31 @@ scripted_gui = {
 			any_country = {
 				has_country_flag = GGORI_BROWN
 				exists = yes is_puppet = no
+			}
+		}
+
+		effects = {
+			view_brown_shine_click = {
+				if = {
+					limit = {
+						any_country = {
+							has_country_flag = GGORI_BROWN
+							exists = yes is_puppet = no
+						}
+					}
+					var:global.colors^6 = {
+						every_owned_state = {
+							limit = { is_capital = yes }
+							meta_effect = {
+								text = {
+									set_temp_variable = { state_to_go = [STATE] }
+								}
+								STATE = "[This.GetID]"
+							}
+						}
+					}
+					goto_state = var:state_to_go
+				}
 			}
 		}
 	}

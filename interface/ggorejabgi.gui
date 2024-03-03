@@ -22,6 +22,12 @@ guiTypes = {
 			
 			# pdx_tooltip = "TT_NVX_ECOLITE_treasury_stats"
 		}
+
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x = -42 y = -72 }
+		}
 	}
 
 	# containerWindowType = {
@@ -66,7 +72,17 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_window_1b_no_border"
 		}
 		#######################
-		
+
+		containerWindowType = {
+			name = "test"
+			position = { x = 20 y = 150 }
+			size = { width = 960 height = 360 }
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_plain_bg"
+			}
+		}
+
 		containerWindowType = {
 			name = "double_leader_system_popup_ui_window_test"
 			position = { x = -40 y = 0 }
@@ -81,6 +97,29 @@ guiTypes = {
 				format = center
 				vertical_alignment = center
 			}
+
+			instantTextboxType = {
+				name = "GGORI_YOUR_COLOR"
+				position = { x = 335 y = 90 }
+				font = "hoi_36header"
+				text = "GGORI_YOUR_COLOR_TEXT"
+				maxWidth = 400
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+			}
+
+			instantTextboxType = {
+				name = "GGORI_YOUR_TARGET"
+				position = { x = 335 y = 540 }
+				font = "hoi_36header"
+				text = "GGORI_YOUR_TARGET_TEXT"
+				maxWidth = 400
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+			}
+
 			iconType = {
 				name ="ggore_help_icon"
 				spriteType = "GFX_help_button"
@@ -114,8 +153,15 @@ guiTypes = {
 			name = "view_red"
 			position = { x = 00 y = 50 }
 			spriteType = "GFX_ggore_RED"
-			pdx_tooltip = "GGO_NAME_RED"
+			pdx_tooltip = "GGO_NAME_RED_text"
 			pdx_tooltip_delayed = "테스트용2"
+		}
+
+		iconType = {
+			name = "right_arrow"
+			spriteType = "GFX_floating_arrows"
+			position = { x = 185 y = 130}
+			#scale = 2.0
 		}
 	}	
 	
@@ -136,6 +182,13 @@ guiTypes = {
 			pdx_tooltip = "GGO_NAME_ORANGE"
 			pdx_tooltip_delayed = "테스트용2"
 		}
+
+		iconType = {
+			name = "right_arrow"
+			spriteType = "GFX_floating_arrows"
+			position = { x = 385 y = 130}
+			#scale = 2.0
+		}
 	}	
 	
 	containerWindowType = {
@@ -155,6 +208,13 @@ guiTypes = {
 			pdx_tooltip = "GGO_NAME_YELLOW"
 			pdx_tooltip_delayed = "테스트용2"
 		}
+
+		iconType = {
+			name = "right_arrow"
+			spriteType = "GFX_floating_arrows"
+			position = { x = 585 y = 130}
+			#scale = 2.0
+		}
 	}	
 	
 	containerWindowType = {
@@ -173,6 +233,13 @@ guiTypes = {
 			spriteType = "GFX_ggore_GREEN"
 			pdx_tooltip = "GGO_NAME_GREEN"
 			pdx_tooltip_delayed = "테스트용2"
+		}
+
+		iconType = {
+			name = "right_arrow"
+			spriteType = "GFX_floating_arrows"
+			position = { x = 785 y = 130}
+			#scale = 2.0
 		}
 	}	
 	containerWindowType = {
@@ -209,6 +276,13 @@ guiTypes = {
 			spriteType = "GFX_ggore_PUPLE"
 			pdx_tooltip = "GGO_NAME_PURPLE"
 			pdx_tooltip_delayed = "테스트용2"
+		}
+
+		iconType = {
+			name = "right_arrow"
+			spriteType = "GFX_floating_arrows"
+			position = { x = 185 y = 330}
+			#scale = 2.0
 		}
 	}	
 	containerWindowType = {

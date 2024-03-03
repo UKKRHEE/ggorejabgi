@@ -11,6 +11,14 @@ country_event = { #Red Setting
 	option = {
 		name = ggori.1.a
 		set_country_flag = GGORI_RED
+		set_country_flag = gui_alert_visible
+		set_country_flag = ggore_on
+		
+		add_to_array = {
+			array = global.colors
+			value = THIS
+		}
+		
 		random_country = {
 			limit = {
 				#is_ai = no
@@ -41,6 +49,14 @@ country_event = { #Orange Setting
 	option = {
 		name = ggori.2.a
 		set_country_flag = GGORI_ORANGE
+		set_country_flag = gui_alert_visible
+		set_country_flag = ggore_on
+
+		add_to_array = {
+			array = global.colors
+			value = THIS
+		}
+
 		random_country = {
 			limit = {
 				#is_ai = no
@@ -70,6 +86,14 @@ country_event = { #Yellow Setting
 	option = {
 		name = ggori.3.a
 		set_country_flag = GGORI_YELLOW
+		set_country_flag = gui_alert_visible
+		set_country_flag = ggore_on
+
+		add_to_array = {
+			array = global.colors
+			value = THIS
+		}
+		
 		random_country = {
 			limit = {
 				#is_ai = no
@@ -98,6 +122,14 @@ country_event = { #Green Setting
 	option = {
 		name = ggori.4.a
 		set_country_flag = GGORI_GREEN
+		set_country_flag = gui_alert_visible
+		set_country_flag = ggore_on
+
+		add_to_array = {
+			array = global.colors
+			value = THIS
+		}
+
 		random_country = {
 			limit = {
 				#is_ai = no
@@ -125,6 +157,14 @@ country_event = { #Blue Setting
 	option = {
 		name = ggori.5.a
 		set_country_flag = GGORI_BLUE
+		set_country_flag = gui_alert_visible
+		set_country_flag = ggore_on
+
+		add_to_array = {
+			array = global.colors
+			value = THIS
+		}
+
 		random_country = {
 			limit = {
 				#is_ai = no
@@ -151,6 +191,14 @@ country_event = { #Purple Setting
 	option = {
 		name = ggori.6.a
 		set_country_flag = GGORI_PURPLE
+		set_country_flag = gui_alert_visible
+		set_country_flag = ggore_on
+
+		add_to_array = {
+			array = global.colors
+			value = THIS
+		}
+
 		random_country = {
 			limit = {
 				#is_ai = no
@@ -176,6 +224,14 @@ country_event = { #Brown Setting
 	option = {
 		name = ggori.7.a
 		set_country_flag = GGORI_BROWN
+		set_country_flag = gui_alert_visible
+		set_country_flag = ggore_on
+
+		add_to_array = {
+			array = global.colors
+			value = THIS
+		}
+		
 	}
 }
 country_event = { #Brown Setting
@@ -201,5 +257,30 @@ country_event = { #꼬리잡기 목표 설명
 
 	option = {
 		name = ggori.1000.a
+	}
+}
+
+country_event = {
+	id = ggori.999
+	title = ggori.999.title
+	desc = ggori.999.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.999.a
+		var:global.colors^0 = {
+			every_owned_state = {
+				limit = { is_capital = yes }
+				meta_effect = {
+					text = {
+						set_temp_variable = { state_to_go = [STATE] }
+					}
+					STATE = "[This.GetID]"
+				}
+			}
+		}
+		goto_state = var:state_to_go
 	}
 }

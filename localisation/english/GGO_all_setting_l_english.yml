@@ -1,6 +1,6 @@
 ﻿l_english:
 
- ggore_help_tt:0 "§R꼬리잡기 규칙!§!\n\n§Y플레이어§!는 각각 자신의 꼬리색을 가집니다. 자기 꼬리 색은 §R빤짝빤짝 빛나는 색깔§!이니까, 눈깔이 삐는 사람이 아니면 다 알아보실 수 있을겁니다.\n\n꼬리의 방향은 §R빨강§!-§O주황§!-§Y노랑§!-§G초록§!-§B파랑§!-보라-갈색-§R빨강§! 순서입니다. \n\n플레이어는 자신의 다음 색 꼬리를 가진 국가와 싸워야 합니다. 승리하였다면 그 다음 색 꼬리를 가진 국가를 침공해야 합니다. 그렇게 모든 유저들과 결투를 벌여서 끝까지 살아남으시면 됩니다.\n\n즐겜!"
+ ggore_help_tt:0 "§R꼬리잡기 규칙!§!\n\n§Y플레이어§!는 각각 자신의 꼬리색을 가집니다. 자기 꼬리 색은 §R빤짝빤짝 빛나는 색깔§!이니까, 눈깔이 삐는 사람이 아니면 다 알아보실 수 있을겁니다.\n\n꼬리의 방향은 §R빨강§!-§O주황§!-§Y노랑§!-§G초록§!-§B파랑§!-§0보라§!-§L갈색§!-§R빨강§! 순서입니다. \n\n플레이어는 자신의 다음 색 꼬리를 가진 국가와 싸워야 합니다. 승리하였다면 그 다음 색 꼬리를 가진 국가를 침공해야 합니다. 그렇게 모든 유저들과 결투를 벌여서 끝까지 살아남으시면 됩니다.\n\n즐겜!"
  
  
  
@@ -21,15 +21,17 @@
  LOC_COUNTRY_GGORI_PURPLE:0 "[ROOT.GetName]"
  LOC_COUNTRY_GGORI_BROWN:0 "[ROOT.GetName]"
  
- GGORI_RED:0 "빨간색"
- GGORI_ORANGE:0 "주황색"
- GGORI_YELLOW:0 "노랑색"
- GGORI_GREEN:0 "초록색"
- GGORI_BLUE:0 "파랑색"
- GGORI_PURPLE:0 "보라색"
- GGORI_BROWN:0 "갈색"
+ GGORI_RED:0 "§R빨간색§!"
+ GGORI_ORANGE:0 "§O주황색§!"
+ GGORI_YELLOW:0 "§Y노랑색§!"
+ GGORI_GREEN:0 "§G초록색§!"
+ GGORI_BLUE:0 "§B파랑색§!"
+ GGORI_PURPLE:0 "§0보라색§!"
+ GGORI_BROWN:0 "§L갈색§!"
  empty:0 ""
 
+ GGORI_YOUR_COLOR_TEXT:0 "당신의 색깔은 [GetMapModeColors]입니다."
+ GGORI_YOUR_TARGET_TEXT:0 "당신의 타겟은 [GetYourTarget]입니다."
  ggore_fisc_text:0 "꼬리잡기 색깔"
 
  ###########
