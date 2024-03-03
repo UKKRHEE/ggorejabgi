@@ -154,7 +154,7 @@ defined_text = {
         trigger = {
             has_country_flag = GGORI_BROWN
         }
-        localization_key = GGORI_RED
+        localization_key = GGORI_PURPLE
     }
     text = {
         localization_key = empty
