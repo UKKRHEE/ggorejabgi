@@ -32,8 +32,20 @@
  empty:0 ""
 
  GGORI_YOUR_COLOR_TEXT:0 "당신의 색깔은 [GetMapModeColors]입니다."
- GGORI_YOUR_TARGET_TEXT:0 "당신의 타겟은 [GetYourTarget]입니다."
+ GGORI_YOUR_TARGET_TEXT:0 "" #당신의 타겟은 [GetYourTarget]입니다.
  ggore_fisc_text:0 "꼬리잡기 색깔"
+ 
+ ###########
+ RULE_GGORI_ALL:0 "꼬리잡기 규칙"
+ GGORI_SETTING_RULE:0 "대륙 설정"
+ RULE_OPTION_GGORI_NOT:0 "설정 안함"
+ RULE_OPTION_GGORI_NOT_DESC:0 "님 이럴거면 이거 왜 씀?"
+ RULE_OPTION_GGORI_YES_EUROPE:0 "유럽"
+ RULE_OPTION_GGORI_YES_EUROPE_DESC:0 "대륙은 유럽에 한정됩니다."
+ RULE_OPTION_GGORI_YES_ASIA:0 "아시아"
+ RULE_OPTION_GGORI_YES_ASIA_DESC:0 "대륙은 아시아에 한정됩니다."
+ RULE_OPTION_GGORI_YES_AMERICA:0 "아메리카"
+ RULE_OPTION_GGORI_YES_AMERICA_DESC:0 "대륙은 아메리카(남북)에 한정됩니다."
 
  ###########
  ggori.1.title:0 "빨간색"

@@ -119,7 +119,7 @@ defined_text = {
             has_country_flag = GGORI_RED
 			any_country = {
 				has_country_flag = GGORI_BROWN 
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BROWN
@@ -129,11 +129,11 @@ defined_text = {
             has_country_flag = GGORI_RED
 			any_country = {
 				has_country_flag = GGORI_BROWN 
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_PURPLE
@@ -143,15 +143,15 @@ defined_text = {
             has_country_flag = GGORI_RED
 			any_country = {
 				has_country_flag = GGORI_BROWN 
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BLUE
@@ -161,19 +161,19 @@ defined_text = {
             has_country_flag = GGORI_RED
 			any_country = {
 				has_country_flag = GGORI_BROWN 
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_GREEN
@@ -183,23 +183,23 @@ defined_text = {
             has_country_flag = GGORI_RED
 			any_country = {
 				has_country_flag = GGORI_BROWN 
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_YELLOW
@@ -209,27 +209,27 @@ defined_text = {
             has_country_flag = GGORI_RED
 			any_country = {
 				has_country_flag = GGORI_BROWN 
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_ORANGE
@@ -239,27 +239,27 @@ defined_text = {
             has_country_flag = GGORI_RED
 			any_country = {
 				has_country_flag = GGORI_BROWN 
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
         }
         localization_key = GGORI_WIN
@@ -271,7 +271,7 @@ defined_text = {
             has_country_flag = GGORI_ORANGE
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_RED
@@ -281,11 +281,11 @@ defined_text = {
             has_country_flag = GGORI_ORANGE
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BROWN
@@ -295,15 +295,15 @@ defined_text = {
             has_country_flag = GGORI_ORANGE
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_PURPLE
@@ -313,19 +313,19 @@ defined_text = {
             has_country_flag = GGORI_ORANGE
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BLUE
@@ -335,23 +335,23 @@ defined_text = {
             has_country_flag = GGORI_ORANGE
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_GREEN
@@ -361,27 +361,27 @@ defined_text = {
             has_country_flag = GGORI_ORANGE
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_YELLOW
@@ -391,27 +391,27 @@ defined_text = {
             has_country_flag = GGORI_ORANGE
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
         }
         localization_key = GGORI_WIN
@@ -422,7 +422,7 @@ defined_text = {
             has_country_flag = GGORI_YELLOW
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_ORANGE
@@ -432,11 +432,11 @@ defined_text = {
             has_country_flag = GGORI_YELLOW
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_RED
@@ -446,15 +446,15 @@ defined_text = {
             has_country_flag = GGORI_YELLOW
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BROWN
@@ -464,19 +464,19 @@ defined_text = {
             has_country_flag = GGORI_YELLOW
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_PURPLE
@@ -486,23 +486,23 @@ defined_text = {
             has_country_flag = GGORI_YELLOW
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BLUE
@@ -512,27 +512,27 @@ defined_text = {
             has_country_flag = GGORI_YELLOW
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_GREEN
@@ -542,27 +542,27 @@ defined_text = {
             has_country_flag = GGORI_YELLOW
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
         }
         localization_key = GGORI_WIN
@@ -573,7 +573,7 @@ defined_text = {
             has_country_flag = GGORI_GREEN
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_YELLOW
@@ -583,11 +583,11 @@ defined_text = {
             has_country_flag = GGORI_GREEN
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_RED
@@ -597,15 +597,15 @@ defined_text = {
             has_country_flag = GGORI_GREEN
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BROWN
@@ -615,19 +615,19 @@ defined_text = {
             has_country_flag = GGORI_GREEN
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_PURPLE
@@ -637,23 +637,23 @@ defined_text = {
             has_country_flag = GGORI_GREEN
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BLUE
@@ -663,23 +663,23 @@ defined_text = {
             has_country_flag = GGORI_GREEN
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
         }
         localization_key = GGORI_WIN
@@ -690,7 +690,7 @@ defined_text = {
             has_country_flag = GGORI_BLUE
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_GREEN
@@ -700,11 +700,11 @@ defined_text = {
             has_country_flag = GGORI_BLUE
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_YELLOW
@@ -714,15 +714,15 @@ defined_text = {
             has_country_flag = GGORI_BLUE
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_ORANGE
@@ -732,19 +732,19 @@ defined_text = {
             has_country_flag = GGORI_BLUE
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_RED
@@ -754,23 +754,23 @@ defined_text = {
             has_country_flag = GGORI_BLUE
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BROWN
@@ -780,27 +780,27 @@ defined_text = {
             has_country_flag = GGORI_BLUE
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_PURPLE
@@ -810,27 +810,27 @@ defined_text = {
             has_country_flag = GGORI_BLUE
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
         }
         localization_key = GGORI_WIN
@@ -841,7 +841,7 @@ defined_text = {
             has_country_flag = GGORI_PURPLE
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BLUE
@@ -851,11 +851,11 @@ defined_text = {
             has_country_flag = GGORI_PURPLE
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_GREEN
@@ -865,15 +865,15 @@ defined_text = {
             has_country_flag = GGORI_PURPLE
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_YELLOW
@@ -883,19 +883,19 @@ defined_text = {
             has_country_flag = GGORI_PURPLE
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_ORANGE
@@ -905,23 +905,23 @@ defined_text = {
             has_country_flag = GGORI_PURPLE
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_RED
@@ -931,27 +931,27 @@ defined_text = {
             has_country_flag = GGORI_PURPLE
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BROWN
@@ -961,27 +961,27 @@ defined_text = {
             has_country_flag = GGORI_PURPLE
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
         }
         localization_key = GGORI_WIN
@@ -992,7 +992,7 @@ defined_text = {
             has_country_flag = GGORI_BROWN
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_PURPLE
@@ -1002,11 +1002,11 @@ defined_text = {
             has_country_flag = GGORI_BROWN
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_BLUE
@@ -1016,15 +1016,15 @@ defined_text = {
             has_country_flag = GGORI_BROWN
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_GREEN
@@ -1034,19 +1034,19 @@ defined_text = {
             has_country_flag = GGORI_BROWN
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_YELLOW
@@ -1056,23 +1056,23 @@ defined_text = {
             has_country_flag = GGORI_BROWN
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_ORANGE
@@ -1082,27 +1082,27 @@ defined_text = {
             has_country_flag = GGORI_BROWN
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = yes
+				AND = { exists = yes is_puppet = no }
 			}
         }
         localization_key = GGORI_RED
@@ -1112,27 +1112,27 @@ defined_text = {
             has_country_flag = GGORI_BROWN
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				exists = no
+				OR = { exists = no is_puppet = yes }
 			}
         }
         localization_key = GGORI_WIN
