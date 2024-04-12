@@ -911,13 +911,16 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
-		FROM = {
-			NOT = {
-				has_country_flag = GGORI_ORANGE
-				has_country_flag = GGORI_YELLOW
-				has_country_flag = GGORI_GREEN
-				has_country_flag = GGORI_BLUE
-				has_country_flag = GGORI_PURPLE
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
+			FROM = {
+				NOT = {
+					has_country_flag = GGORI_ORANGE
+					has_country_flag = GGORI_YELLOW
+					has_country_flag = GGORI_GREEN
+					has_country_flag = GGORI_BLUE
+					has_country_flag = GGORI_PURPLE
+				}
 			}
 		}
 	}
@@ -933,6 +936,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_ORANGE
@@ -940,6 +945,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_GREEN
 				has_country_flag = GGORI_BLUE
 			}
+		}
 		}
 	}
 	if = {
@@ -958,12 +964,15 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_ORANGE
 				has_country_flag = GGORI_YELLOW
 				has_country_flag = GGORI_GREEN
 			}
+		}
 		}
 	}
 	if = {
@@ -986,12 +995,15 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_ORANGE
 				has_country_flag = GGORI_YELLOW
 			}	
 		}
+		}
 	}
 	if = {
 		limit = {
@@ -1017,10 +1029,13 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_ORANGE
 			}
+		}
 		}
 	}
 	if = {
@@ -1061,6 +1076,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_RED
@@ -1069,6 +1086,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_GREEN
 				has_country_flag = GGORI_BLUE
 			}
+		}
 		}
 	}
 	if = {
@@ -1083,6 +1101,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_RED
@@ -1091,29 +1111,6 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_GREEN
 			}
 		}
-	}
-	if = {
-		limit = {
-			has_country_flag = GGORI_BROWN
-			any_country = {
-				has_country_flag = GGORI_PURPLE
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_BLUE
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_GREEN
-				exists = yes is_puppet = no
-			}
-		}
-		FROM = {
-			NOT = {
-				has_country_flag = GGORI_RED
-				has_country_flag = GGORI_ORANGE
-				has_country_flag = GGORI_YELLOW
-			}
 		}
 	}
 	if = {
@@ -1129,18 +1126,18 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_GREEN
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_YELLOW
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_RED
 				has_country_flag = GGORI_ORANGE
+				has_country_flag = GGORI_YELLOW
 			}
+		}
 		}
 	}
 	if = {
@@ -1160,6 +1157,36 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
+				exists = yes is_puppet = no
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
+		FROM = {
+			NOT = {
+				has_country_flag = GGORI_RED
+				has_country_flag = GGORI_ORANGE
+			}
+		}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = GGORI_BROWN
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
 				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
@@ -1167,10 +1194,13 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_RED
 			}
+		}
 		}
 	}
 	if = {
@@ -1211,6 +1241,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_BROWN
@@ -1219,6 +1251,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_YELLOW
 				has_country_flag = GGORI_GREEN
 			}
+		}
 		}
 	}
 	if = {
@@ -1233,6 +1266,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_BROWN
@@ -1241,29 +1276,6 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_YELLOW
 			}
 		}
-	}
-	if = {
-		limit = {
-			has_country_flag = GGORI_PURPLE
-			any_country = {
-				has_country_flag = GGORI_BLUE
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_GREEN
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_YELLOW
-				exists = yes is_puppet = no
-			}
-		}
-		FROM = {
-			NOT = {
-				has_country_flag = GGORI_BROWN
-				has_country_flag = GGORI_RED
-				has_country_flag = GGORI_ORANGE
-			}
 		}
 	}
 	if = {
@@ -1279,18 +1291,18 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_YELLOW
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_ORANGE
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_BROWN
 				has_country_flag = GGORI_RED
+				has_country_flag = GGORI_ORANGE
 			}
+		}
 		}
 	}
 	if = {
@@ -1310,6 +1322,36 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
+				exists = yes is_puppet = no
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
+		FROM = {
+			NOT = {
+				has_country_flag = GGORI_BROWN
+				has_country_flag = GGORI_RED
+			}
+		}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = GGORI_PURPLE
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
 				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
@@ -1317,10 +1359,13 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_BROWN
 			}
+		}
 		}
 	}
 	if = {
@@ -1361,6 +1406,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_PURPLE
@@ -1369,6 +1416,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_ORANGE
 				has_country_flag = GGORI_YELLOW
 			}
+		}
 		}
 	}
 	if = {
@@ -1383,6 +1431,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_PURPLE
@@ -1391,29 +1441,6 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_ORANGE
 			}
 		}
-	}
-	if = {
-		limit = {
-			has_country_flag = GGORI_BLUE
-			any_country = {
-				has_country_flag = GGORI_GREEN
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_YELLOW
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_ORANGE
-				exists = yes is_puppet = no
-			}
-		}
-		FROM = {
-			NOT = {
-				has_country_flag = GGORI_PURPLE
-				has_country_flag = GGORI_BROWN
-				has_country_flag = GGORI_RED
-			}
 		}
 	}
 	if = {
@@ -1429,18 +1456,18 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_ORANGE
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_RED
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_PURPLE
 				has_country_flag = GGORI_BROWN
+				has_country_flag = GGORI_RED
 			}
+		}
 		}
 	}
 	if = {
@@ -1460,6 +1487,36 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
+				exists = yes is_puppet = no
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
+		FROM = {
+			NOT = {
+				has_country_flag = GGORI_PURPLE
+				has_country_flag = GGORI_BROWN
+			}
+		}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = GGORI_BLUE
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
 				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
@@ -1467,10 +1524,13 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_PURPLE
 			}
+		}
 		}
 	}
 	if = {
@@ -1511,6 +1571,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_BLUE
@@ -1519,6 +1581,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_RED
 				has_country_flag = GGORI_ORANGE
 			}
+		}
 		}
 	}
 	if = {
@@ -1533,6 +1596,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_BLUE
@@ -1541,29 +1606,6 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_RED
 			}
 		}
-	}
-	if = {
-		limit = {
-			has_country_flag = GGORI_GREEN
-			any_country = {
-				has_country_flag = GGORI_YELLOW
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_ORANGE
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_RED
-				exists = yes is_puppet = no
-			}
-		}
-		FROM = {
-			NOT = {
-				has_country_flag = GGORI_BLUE
-				has_country_flag = GGORI_PURPLE
-				has_country_flag = GGORI_BROWN
-			}
 		}
 	}
 	if = {
@@ -1579,18 +1621,18 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_RED
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_BROWN
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_BLUE
 				has_country_flag = GGORI_PURPLE
+				has_country_flag = GGORI_BROWN
 			}
+		}
 		}
 	}
 	if = {
@@ -1610,6 +1652,36 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
+				exists = yes is_puppet = no
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
+		FROM = {
+			NOT = {
+				has_country_flag = GGORI_BLUE
+				has_country_flag = GGORI_PURPLE
+			}
+		}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = GGORI_GREEN
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
 				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
@@ -1617,10 +1689,13 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_BLUE
 			}
+		}
 		}
 	}
 	if = {
@@ -1661,6 +1736,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_GREEN
@@ -1669,6 +1746,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_BROWN
 				has_country_flag = GGORI_RED
 			}
+		}
 		}
 	}
 	if = {
@@ -1683,6 +1761,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_GREEN
@@ -1691,29 +1771,6 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_BROWN
 			}
 		}
-	}
-	if = {
-		limit = {
-			has_country_flag = GGORI_YELLOW
-			any_country = {
-				has_country_flag = GGORI_ORANGE
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_RED
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_BROWN
-				exists = yes is_puppet = no
-			}
-		}
-		FROM = {
-			NOT = {
-				has_country_flag = GGORI_GREEN
-				has_country_flag = GGORI_BLUE
-				has_country_flag = GGORI_PURPLE
-			}
 		}
 	}
 	if = {
@@ -1729,18 +1786,18 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_BROWN
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_PURPLE
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_GREEN
 				has_country_flag = GGORI_BLUE
+				has_country_flag = GGORI_PURPLE
 			}
+		}
 		}
 	}
 	if = {
@@ -1760,6 +1817,36 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
+				exists = yes is_puppet = no
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
+		FROM = {
+			NOT = {
+				has_country_flag = GGORI_GREEN
+				has_country_flag = GGORI_BLUE
+			}
+		}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = GGORI_YELLOW
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
 				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
@@ -1767,10 +1854,13 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_GREEN
 			}
+		}
 		}
 	}
 	if = {
@@ -1811,6 +1901,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_YELLOW
@@ -1820,6 +1912,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_BROWN
 				has_country_flag = GGORI_RED
 			}
+		}
 		}
 	}
 	if = {
@@ -1834,6 +1927,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_YELLOW
@@ -1843,30 +1938,6 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				has_country_flag = GGORI_BROWN
 			}
 		}
-	}
-	if = {
-		limit = {
-			has_country_flag = GGORI_ORANGE
-			any_country = {
-				has_country_flag = GGORI_RED
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_BROWN
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_PURPLE
-				exists = yes is_puppet = no
-			}
-		}
-		FROM = {
-			NOT = {
-				has_country_flag = GGORI_YELLOW
-				has_country_flag = GGORI_GREEN
-				has_country_flag = GGORI_BLUE
-				has_country_flag = GGORI_PURPLE
-			}
 		}
 	}
 	if = {
@@ -1882,18 +1953,19 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_PURPLE
-				OR = { exists = no is_puppet = yes }
-			}
-			any_country = {
-				has_country_flag = GGORI_BLUE
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_YELLOW
 				has_country_flag = GGORI_GREEN
+				has_country_flag = GGORI_BLUE
+				has_country_flag = GGORI_PURPLE
 			}
+		}
 		}
 	}
 	if = {
@@ -1913,6 +1985,36 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 			}
 			any_country = {
 				has_country_flag = GGORI_BLUE
+				exists = yes is_puppet = no
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
+		FROM = {
+			NOT = {
+				has_country_flag = GGORI_YELLOW
+				has_country_flag = GGORI_GREEN
+			}
+		}
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = GGORI_ORANGE
+			any_country = {
+				has_country_flag = GGORI_RED
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				OR = { exists = no is_puppet = yes }
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
 				OR = { exists = no is_puppet = yes }
 			}
 			any_country = {
@@ -1920,10 +2022,13 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				exists = yes is_puppet = no
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = tooltip_ggori_not_your_color
 		FROM = {
 			NOT = {
 				has_country_flag = GGORI_YELLOW
 			}
+		}
 		}
 	}
 	if = {

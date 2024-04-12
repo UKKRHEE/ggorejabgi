@@ -35,6 +35,8 @@
  GGORI_YOUR_TARGET_TEXT:0 "" #당신의 타겟은 [GetYourTarget]입니다.
  ggore_fisc_text:0 "꼬리잡기 색깔"
  
+ tooltip_ggori_not_your_color:0 "§R이 플레이어는 당신의 타깃 색깔이 아닙니다.§!"
+ 
  ###########
  RULE_GGORI_ALL:0 "꼬리잡기 규칙"
  GGORI_SETTING_RULE:0 "꼬리잡기 사용 여부"
