@@ -1,3 +1,4 @@
+###################
 is_red_targeting = {
 		if = {
 			limit = {

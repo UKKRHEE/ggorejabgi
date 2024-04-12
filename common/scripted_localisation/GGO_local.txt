@@ -117,45 +117,1027 @@ defined_text = {
     text = {
         trigger = {
             has_country_flag = GGORI_RED
+			any_country = {
+				has_country_flag = GGORI_BROWN 
+				exists = yes
+			}
+        }
+        localization_key = GGORI_BROWN
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_RED
+			any_country = {
+				has_country_flag = GGORI_BROWN 
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_PURPLE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_RED
+			any_country = {
+				has_country_flag = GGORI_BROWN 
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_BLUE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_RED
+			any_country = {
+				has_country_flag = GGORI_BROWN 
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = yes
+			}
+        }
+        localization_key = GGORI_GREEN
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_RED
+			any_country = {
+				has_country_flag = GGORI_BROWN 
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = yes
+			}
+        }
+        localization_key = GGORI_YELLOW
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_RED
+			any_country = {
+				has_country_flag = GGORI_BROWN 
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_ORANGE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_RED
+			any_country = {
+				has_country_flag = GGORI_BROWN 
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+        }
+        localization_key = GGORI_WIN
+    }
+	
+	##########
+    text = {
+        trigger = {
+            has_country_flag = GGORI_ORANGE
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = yes
+			}
+        }
+        localization_key = GGORI_RED
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_ORANGE
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = yes
+			}
         }
         localization_key = GGORI_BROWN
     }
     text = {
         trigger = {
             has_country_flag = GGORI_ORANGE
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_PURPLE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_ORANGE
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_BLUE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_ORANGE
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = yes
+			}
+        }
+        localization_key = GGORI_GREEN
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_ORANGE
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = yes
+			}
+        }
+        localization_key = GGORI_YELLOW
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_ORANGE
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+        }
+        localization_key = GGORI_WIN
+    }
+	##########
+    text = {
+        trigger = {
+            has_country_flag = GGORI_YELLOW
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_ORANGE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_YELLOW
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = yes
+			}
         }
         localization_key = GGORI_RED
     }
     text = {
         trigger = {
             has_country_flag = GGORI_YELLOW
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = yes
+			}
         }
-        localization_key = GGORI_ORANGE
+        localization_key = GGORI_BROWN
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_YELLOW
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_PURPLE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_YELLOW
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_BLUE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_YELLOW
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = yes
+			}
+        }
+        localization_key = GGORI_GREEN
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_YELLOW
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+        }
+        localization_key = GGORI_WIN
+    }
+	##########
+    text = {
+        trigger = {
+            has_country_flag = GGORI_GREEN
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = yes
+			}
+        }
+        localization_key = GGORI_YELLOW
     }
     text = {
         trigger = {
             has_country_flag = GGORI_GREEN
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = yes
+			}
+        }
+        localization_key = GGORI_RED
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_GREEN
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = yes
+			}
+        }
+        localization_key = GGORI_BROWN
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_GREEN
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_PURPLE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_GREEN
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_BLUE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_GREEN
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+        }
+        localization_key = GGORI_WIN
+    }
+	##########
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BLUE
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = yes
+			}
+        }
+        localization_key = GGORI_GREEN
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BLUE
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = yes
+			}
         }
         localization_key = GGORI_YELLOW
     }
     text = {
         trigger = {
             has_country_flag = GGORI_BLUE
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_ORANGE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BLUE
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = yes
+			}
+        }
+        localization_key = GGORI_RED
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BLUE
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = yes
+			}
+        }
+        localization_key = GGORI_BROWN
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BLUE
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_PURPLE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BLUE
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+        }
+        localization_key = GGORI_WIN
+    }
+	##########
+    text = {
+        trigger = {
+            has_country_flag = GGORI_PURPLE
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_BLUE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_PURPLE
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = yes
+			}
         }
         localization_key = GGORI_GREEN
     }
     text = {
         trigger = {
             has_country_flag = GGORI_PURPLE
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = yes
+			}
+        }
+        localization_key = GGORI_YELLOW
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_PURPLE
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_ORANGE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_PURPLE
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = yes
+			}
+        }
+        localization_key = GGORI_RED
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_PURPLE
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = yes
+			}
+        }
+        localization_key = GGORI_BROWN
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_PURPLE
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BROWN
+				exists = no
+			}
+        }
+        localization_key = GGORI_WIN
+    }
+	##########
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BROWN
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_PURPLE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BROWN
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = yes
+			}
         }
         localization_key = GGORI_BLUE
     }
     text = {
         trigger = {
             has_country_flag = GGORI_BROWN
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = yes
+			}
         }
-        localization_key = GGORI_PURPLE
+        localization_key = GGORI_GREEN
     }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BROWN
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = yes
+			}
+        }
+        localization_key = GGORI_YELLOW
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BROWN
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = yes
+			}
+        }
+        localization_key = GGORI_ORANGE
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BROWN
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = yes
+			}
+        }
+        localization_key = GGORI_RED
+    }
+    text = {
+        trigger = {
+            has_country_flag = GGORI_BROWN
+			any_country = {
+				has_country_flag = GGORI_PURPLE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_BLUE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_GREEN
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_YELLOW
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_ORANGE
+				exists = no
+			}
+			any_country = {
+				has_country_flag = GGORI_RED
+				exists = no
+			}
+        }
+        localization_key = GGORI_WIN
+    }
+	##########
     text = {
         localization_key = empty
     }
