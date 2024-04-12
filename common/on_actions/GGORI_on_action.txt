@@ -1,9 +1,17 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			GER = {
-				country_event = {
-					id = ggori.1
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = GGORI_SETTING_RULE
+						option = GGORI_YES
+					}
+				}
+				GER = {
+					country_event = {
+						id = ggori.1
+					}
 				}
 			}
 		}
