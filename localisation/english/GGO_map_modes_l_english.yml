@@ -2,5 +2,5 @@
  MAPMODE_GGO_MAP_MODE_NAME: "색깔"
  MAPMODE_GGO_MAP_MODE: ""
  MAPMODE_GGO_MAP_MODE_DESCRIPTION: ""
- GGO_map_mode_tooltip: "[FROM.Controller.GetMapModeColors]"
- GGO_map_mode_tooltip_delayed: ""
+#  GGO_map_mode_tooltip: "[FROM.Controller.GetMapModeColors]"
+#  GGO_map_mode_tooltip_delayed: ""
