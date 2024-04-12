@@ -1,5 +1,4 @@
 is_red_targeting = {
-	OR = {
 		if = {
 			limit = {
 				any_country = {
@@ -11,7 +10,7 @@ is_red_targeting = {
 			}
 			has_country_flag = GGORI_ORANGE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -22,7 +21,7 @@ is_red_targeting = {
 			}
 			has_country_flag = GGORI_YELLOW
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -39,7 +38,7 @@ is_red_targeting = {
 			}
 			has_country_flag = GGORI_GREEN
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -62,7 +61,7 @@ is_red_targeting = {
 			}
 			has_country_flag = GGORI_BLUE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -91,7 +90,7 @@ is_red_targeting = {
 			}
 			has_country_flag = GGORI_PURPLE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -126,11 +125,9 @@ is_red_targeting = {
 			}
 			has_country_flag = GGORI_BROWN
 		}
-	}
 }
 
 is_orange_targeting = {
-	OR = {
 		if = {
 			limit = {
 				any_country = {
@@ -142,7 +139,7 @@ is_orange_targeting = {
 			}
 			has_country_flag = GGORI_YELLOW
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -153,7 +150,7 @@ is_orange_targeting = {
 			}
 			has_country_flag = GGORI_GREEN
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -170,7 +167,7 @@ is_orange_targeting = {
 			}
 			has_country_flag = GGORI_BLUE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -193,7 +190,7 @@ is_orange_targeting = {
 			}
 			has_country_flag = GGORI_PURPLE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -222,7 +219,7 @@ is_orange_targeting = {
 			}
 			has_country_flag = GGORI_BROWN
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -256,12 +253,10 @@ is_orange_targeting = {
 				}
 			}
 			has_country_flag = GGORI_RED
-		}
-	}	
+		}	
 }
 
 is_yellow_targeting = {
-	OR = {
 		if = {
 			limit = {
 				any_country = {
@@ -273,7 +268,7 @@ is_yellow_targeting = {
 			}
 			has_country_flag = GGORI_GREEN
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -284,7 +279,7 @@ is_yellow_targeting = {
 			}
 			has_country_flag = GGORI_BLUE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -301,7 +296,7 @@ is_yellow_targeting = {
 			}
 			has_country_flag = GGORI_PURPLE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -324,7 +319,7 @@ is_yellow_targeting = {
 			}
 			has_country_flag = GGORI_BROWN
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -353,7 +348,7 @@ is_yellow_targeting = {
 			}
 			has_country_flag = GGORI_RED
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -387,12 +382,10 @@ is_yellow_targeting = {
 				}
 			}
 			has_country_flag = GGORI_ORANGE
-		}
-	}	
+		}	
 }
 
 is_green_targeting = {
-	OR = {
 		if = {
 			limit = {
 				any_country = {
@@ -404,7 +397,7 @@ is_green_targeting = {
 			}
 			has_country_flag = GGORI_BLUE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -415,7 +408,7 @@ is_green_targeting = {
 			}
 			has_country_flag = GGORI_PURPLE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -432,7 +425,7 @@ is_green_targeting = {
 			}
 			has_country_flag = GGORI_BROWN
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -455,7 +448,7 @@ is_green_targeting = {
 			}
 			has_country_flag = GGORI_RED
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -484,7 +477,7 @@ is_green_targeting = {
 			}
 			has_country_flag = GGORI_ORANGE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -518,12 +511,10 @@ is_green_targeting = {
 				}
 			}
 			has_country_flag = GGORI_YELLOW
-		}
-	}	
+		}	
 }
 
 is_blue_targeting = {
-	OR = {
 		if = {
 			limit = {
 				any_country = {
@@ -535,7 +526,7 @@ is_blue_targeting = {
 			}
 			has_country_flag = GGORI_PURPLE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -546,7 +537,7 @@ is_blue_targeting = {
 			}
 			has_country_flag = GGORI_BROWN
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -563,7 +554,7 @@ is_blue_targeting = {
 			}
 			has_country_flag = GGORI_RED
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -586,7 +577,7 @@ is_blue_targeting = {
 			}
 			has_country_flag = GGORI_ORANGE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -615,7 +606,7 @@ is_blue_targeting = {
 			}
 			has_country_flag = GGORI_YELLOW
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -649,12 +640,10 @@ is_blue_targeting = {
 				}
 			}
 			has_country_flag = GGORI_GREEN
-		}
-	}	
+		}	
 }
 
 is_purple_targeting = {
-	OR = {
 		if = {
 			limit = {
 				any_country = {
@@ -666,7 +655,7 @@ is_purple_targeting = {
 			}
 			has_country_flag = GGORI_BROWN
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -677,7 +666,7 @@ is_purple_targeting = {
 			}
 			has_country_flag = GGORI_RED
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -694,7 +683,7 @@ is_purple_targeting = {
 			}
 			has_country_flag = GGORI_ORANGE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -717,7 +706,7 @@ is_purple_targeting = {
 			}
 			has_country_flag = GGORI_YELLOW
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -746,7 +735,7 @@ is_purple_targeting = {
 			}
 			has_country_flag = GGORI_GREEN
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -780,12 +769,10 @@ is_purple_targeting = {
 				}
 			}
 			has_country_flag = GGORI_BLUE
-		}
-	}	
+		}	
 }
 
 is_brown_targeting = {
-	OR = {
 		if = {
 			limit = {
 				any_country = {
@@ -797,7 +784,7 @@ is_brown_targeting = {
 			}
 			has_country_flag = GGORI_RED
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -808,7 +795,7 @@ is_brown_targeting = {
 			}
 			has_country_flag = GGORI_ORANGE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -825,7 +812,7 @@ is_brown_targeting = {
 			}
 			has_country_flag = GGORI_YELLOW
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -848,7 +835,7 @@ is_brown_targeting = {
 			}
 			has_country_flag = GGORI_GREEN
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -877,7 +864,7 @@ is_brown_targeting = {
 			}
 			has_country_flag = GGORI_BLUE
 		}
-		if = {
+		else_if = {
 			limit = {
 				any_country = {
 					limit = { 
@@ -911,6 +898,5 @@ is_brown_targeting = {
 				}
 			}
 			has_country_flag = GGORI_PURPLE
-		}
-	}	
+		}	
 }
