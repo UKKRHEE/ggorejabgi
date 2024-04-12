@@ -5,7 +5,7 @@ is_red_targeting = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = yes
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_ORANGE
@@ -16,7 +16,13 @@ is_red_targeting = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_YELLOW
@@ -27,13 +33,19 @@ is_red_targeting = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_GREEN
@@ -44,19 +56,25 @@ is_red_targeting = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BLUE
@@ -67,25 +85,31 @@ is_red_targeting = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_PURPLE
@@ -96,31 +120,37 @@ is_red_targeting = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BROWN
@@ -134,7 +164,7 @@ is_orange_targeting = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = yes
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_YELLOW
@@ -145,7 +175,13 @@ is_orange_targeting = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_GREEN
@@ -156,13 +192,19 @@ is_orange_targeting = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BLUE
@@ -173,19 +215,25 @@ is_orange_targeting = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_PURPLE
@@ -196,25 +244,31 @@ is_orange_targeting = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BROWN
@@ -225,31 +279,37 @@ is_orange_targeting = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_RED
@@ -263,7 +323,7 @@ is_yellow_targeting = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = yes
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_GREEN
@@ -274,7 +334,13 @@ is_yellow_targeting = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BLUE
@@ -285,13 +351,19 @@ is_yellow_targeting = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_PURPLE
@@ -302,19 +374,25 @@ is_yellow_targeting = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BROWN
@@ -325,25 +403,31 @@ is_yellow_targeting = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_RED
@@ -354,31 +438,37 @@ is_yellow_targeting = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_ORANGE
@@ -392,7 +482,7 @@ is_green_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = yes
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BLUE
@@ -403,7 +493,13 @@ is_green_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_PURPLE
@@ -414,13 +510,19 @@ is_green_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BROWN
@@ -431,19 +533,25 @@ is_green_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_RED
@@ -454,25 +562,31 @@ is_green_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_ORANGE
@@ -483,31 +597,37 @@ is_green_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_YELLOW
@@ -521,7 +641,7 @@ is_blue_targeting = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = yes
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_PURPLE
@@ -532,7 +652,13 @@ is_blue_targeting = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BROWN
@@ -543,13 +669,19 @@ is_blue_targeting = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_RED
@@ -560,19 +692,25 @@ is_blue_targeting = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_ORANGE
@@ -583,25 +721,31 @@ is_blue_targeting = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_YELLOW
@@ -612,31 +756,37 @@ is_blue_targeting = {
 					limit = { 
 						has_country_flag = GGORI_PURPLE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_GREEN
@@ -650,7 +800,7 @@ is_purple_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = yes
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BROWN
@@ -661,7 +811,13 @@ is_purple_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_RED
@@ -672,13 +828,19 @@ is_purple_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_ORANGE
@@ -689,19 +851,25 @@ is_purple_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_YELLOW
@@ -712,25 +880,31 @@ is_purple_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_GREEN
@@ -741,31 +915,37 @@ is_purple_targeting = {
 					limit = { 
 						has_country_flag = GGORI_BROWN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BLUE
@@ -779,7 +959,7 @@ is_brown_targeting = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = yes
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_RED
@@ -790,7 +970,13 @@ is_brown_targeting = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_ORANGE
@@ -801,13 +987,19 @@ is_brown_targeting = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_YELLOW
@@ -818,19 +1010,25 @@ is_brown_targeting = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_GREEN
@@ -841,25 +1039,31 @@ is_brown_targeting = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_BLUE
@@ -870,31 +1074,37 @@ is_brown_targeting = {
 					limit = { 
 						has_country_flag = GGORI_RED
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_ORANGE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_YELLOW
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_GREEN
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
 				}
 				any_country = {
 					limit = { 
 						has_country_flag = GGORI_BLUE
 					}
-					exists = no
+					OR = { exists = no is_puppet = yes }
+				}
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					AND = { exists = yes is_puppet = no }
 				}
 			}
 			has_country_flag = GGORI_PURPLE

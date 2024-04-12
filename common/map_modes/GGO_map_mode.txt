@@ -110,6 +110,6 @@ scripted_map_modes = {
 
 		far_text = country
 		near_text = none
-		update_daily = no
+		update_daily = yes
 	}
 }
