@@ -37,7 +37,7 @@
  
  ###########
  RULE_GGORI_ALL:0 "꼬리잡기 규칙"
- GGORI_SETTING_RULE:0 "대륙 설정"
+ GGORI_SETTING_RULE:0 "꼬리잡기 사용 여부"
  RULE_OPTION_GGORI_YES:0 "사용함"
  RULE_OPTION_GGORI_YES_DESC:0 "주의: 유저들이 선택한 국가만 꼬리잡기에 포함됩니다. 최대 7인까지 플레이 가능합니다."
  RULE_OPTION_GGORI_NOT:0 "사용 안함"
