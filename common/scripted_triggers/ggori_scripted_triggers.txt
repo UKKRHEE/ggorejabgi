@@ -1,902 +1,916 @@
 is_red_targeting = {
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+	OR = {
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = yes
 				}
-				exists = yes
 			}
+			has_country_flag = GGORI_ORANGE
 		}
-		has_country_flag = GGORI_ORANGE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_YELLOW
 		}
-		has_country_flag = GGORI_YELLOW
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_GREEN
 		}
-		has_country_flag = GGORI_GREEN
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_BLUE
 		}
-		has_country_flag = GGORI_BLUE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_PURPLE
 		}
-		has_country_flag = GGORI_PURPLE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_BROWN
 		}
-		has_country_flag = GGORI_BROWN
 	}
 }
 
 is_orange_targeting = {
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+	OR = {
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = yes
 				}
-				exists = yes
 			}
+			has_country_flag = GGORI_YELLOW
 		}
-		has_country_flag = GGORI_YELLOW
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_GREEN
 		}
-		has_country_flag = GGORI_GREEN
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_BLUE
 		}
-		has_country_flag = GGORI_BLUE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_PURPLE
 		}
-		has_country_flag = GGORI_PURPLE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_BROWN
 		}
-		has_country_flag = GGORI_BROWN
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_RED
 		}
-		has_country_flag = GGORI_RED
-	}
+	}	
 }
 
 is_yellow_targeting = {
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+	OR = {
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = yes
 				}
-				exists = yes
 			}
+			has_country_flag = GGORI_GREEN
 		}
-		has_country_flag = GGORI_GREEN
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_BLUE
 		}
-		has_country_flag = GGORI_BLUE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_PURPLE
 		}
-		has_country_flag = GGORI_PURPLE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_BROWN
 		}
-		has_country_flag = GGORI_BROWN
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_RED
 		}
-		has_country_flag = GGORI_RED
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_ORANGE
 		}
-		has_country_flag = GGORI_ORANGE
-	}
+	}	
 }
 
 is_green_targeting = {
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+	OR = {
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = yes
 				}
-				exists = yes
 			}
+			has_country_flag = GGORI_BLUE
 		}
-		has_country_flag = GGORI_BLUE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_PURPLE
 		}
-		has_country_flag = GGORI_PURPLE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_BROWN
 		}
-		has_country_flag = GGORI_BROWN
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_RED
 		}
-		has_country_flag = GGORI_RED
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_ORANGE
 		}
-		has_country_flag = GGORI_ORANGE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_YELLOW
 		}
-		has_country_flag = GGORI_YELLOW
-	}
+	}	
 }
 
 is_blue_targeting = {
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+	OR = {
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = yes
 				}
-				exists = yes
 			}
+			has_country_flag = GGORI_PURPLE
 		}
-		has_country_flag = GGORI_PURPLE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_BROWN
 		}
-		has_country_flag = GGORI_BROWN
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_RED
 		}
-		has_country_flag = GGORI_RED
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_ORANGE
 		}
-		has_country_flag = GGORI_ORANGE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_YELLOW
 		}
-		has_country_flag = GGORI_YELLOW
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_PURPLE
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_PURPLE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_GREEN
 		}
-		has_country_flag = GGORI_GREEN
-	}
+	}	
 }
 
 is_purple_targeting = {
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+	OR = {
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = yes
 				}
-				exists = yes
 			}
+			has_country_flag = GGORI_BROWN
 		}
-		has_country_flag = GGORI_BROWN
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_RED
 		}
-		has_country_flag = GGORI_RED
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_ORANGE
 		}
-		has_country_flag = GGORI_ORANGE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_YELLOW
 		}
-		has_country_flag = GGORI_YELLOW
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_GREEN
 		}
-		has_country_flag = GGORI_GREEN
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BROWN
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BROWN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_BLUE
 		}
-		has_country_flag = GGORI_BLUE
-	}
+	}	
 }
 
 is_brown_targeting = {
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+	OR = {
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = yes
 				}
-				exists = yes
 			}
+			has_country_flag = GGORI_RED
 		}
-		has_country_flag = GGORI_RED
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_ORANGE
 		}
-		has_country_flag = GGORI_ORANGE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_YELLOW
 		}
-		has_country_flag = GGORI_YELLOW
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_GREEN
 		}
-		has_country_flag = GGORI_GREEN
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_BLUE
 		}
-		has_country_flag = GGORI_BLUE
-	}
-	if = {
-		limit = {
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_RED
+		if = {
+			limit = {
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_RED
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_ORANGE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_ORANGE
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_YELLOW
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_YELLOW
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_GREEN
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_GREEN
+					}
+					exists = no
 				}
-				exists = no
-			}
-			any_country = {
-				limit = { 
-					has_country_flag = GGORI_BLUE
+				any_country = {
+					limit = { 
+						has_country_flag = GGORI_BLUE
+					}
+					exists = no
 				}
-				exists = no
 			}
+			has_country_flag = GGORI_PURPLE
 		}
-		has_country_flag = GGORI_PURPLE
-	}
+	}	
 }
