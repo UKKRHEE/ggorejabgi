@@ -1,0 +1,902 @@
+is_red_targeting = {
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = yes
+			}
+		}
+		has_country_flag = GGORI_ORANGE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_YELLOW
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_GREEN
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_BLUE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_PURPLE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_BROWN
+	}
+}
+
+is_orange_targeting = {
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = yes
+			}
+		}
+		has_country_flag = GGORI_YELLOW
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_GREEN
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_BLUE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_PURPLE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_BROWN
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_RED
+	}
+}
+
+is_yellow_targeting = {
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = yes
+			}
+		}
+		has_country_flag = GGORI_GREEN
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_BLUE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_PURPLE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_BROWN
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_RED
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_ORANGE
+	}
+}
+
+is_green_targeting = {
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = yes
+			}
+		}
+		has_country_flag = GGORI_BLUE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_PURPLE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_BROWN
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_RED
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_ORANGE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_YELLOW
+	}
+}
+
+is_blue_targeting = {
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = yes
+			}
+		}
+		has_country_flag = GGORI_PURPLE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_BROWN
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_RED
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_ORANGE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_YELLOW
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_PURPLE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_GREEN
+	}
+}
+
+is_purple_targeting = {
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = yes
+			}
+		}
+		has_country_flag = GGORI_BROWN
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_RED
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_ORANGE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_YELLOW
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_GREEN
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BROWN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_BLUE
+	}
+}
+
+is_brown_targeting = {
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = yes
+			}
+		}
+		has_country_flag = GGORI_RED
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_ORANGE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_YELLOW
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_GREEN
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_BLUE
+	}
+	if = {
+		limit = {
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_RED
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_ORANGE
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_YELLOW
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_GREEN
+				}
+				exists = no
+			}
+			any_country = {
+				limit = { 
+					has_country_flag = GGORI_BLUE
+				}
+				exists = no
+			}
+		}
+		has_country_flag = GGORI_PURPLE
+	}
+}
