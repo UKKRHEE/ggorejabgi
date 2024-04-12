@@ -7,9 +7,9 @@ country_event = { #Red Setting
 	picture = GFX_report_event_election_vote
 
 	is_triggered_only = yes
-
-	option = {
-		name = ggori.1.a
+	fire_only_once = yes
+	
+	immediate = {
 		set_country_flag = GGORI_RED
 		set_country_flag = gui_alert_visible
 		set_country_flag = ggore_on
@@ -40,6 +40,10 @@ country_event = { #Red Setting
 			}
 		}
 	}
+
+	option = {
+		name = ggori.1.a
+	}
 }
 country_event = { #Orange Setting
 	id = ggori.2
@@ -48,9 +52,9 @@ country_event = { #Orange Setting
 	picture = GFX_report_event_election_vote
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
-	option = {
-		name = ggori.2.a
+	immediate = {
 		set_country_flag = GGORI_ORANGE
 		set_country_flag = gui_alert_visible
 		set_country_flag = ggore_on
@@ -81,6 +85,9 @@ country_event = { #Orange Setting
 			}
 		}
 	}
+	option = {
+		name = ggori.2.a
+	}	
 }
 country_event = { #Yellow Setting
 	id = ggori.3
@@ -89,9 +96,9 @@ country_event = { #Yellow Setting
 	picture = GFX_report_event_election_vote
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
-	option = {
-		name = ggori.3.a
+	immediate = {
 		set_country_flag = GGORI_YELLOW
 		set_country_flag = gui_alert_visible
 		set_country_flag = ggore_on
@@ -122,6 +129,9 @@ country_event = { #Yellow Setting
 			}
 		}
 	}
+	option = {
+		name = ggori.3.a
+	}	
 }
 country_event = { #Green Setting
 	id = ggori.4
@@ -130,9 +140,9 @@ country_event = { #Green Setting
 	picture = GFX_report_event_election_vote
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
-	option = {
-		name = ggori.4.a
+	immediate = {
 		set_country_flag = GGORI_GREEN
 		set_country_flag = gui_alert_visible
 		set_country_flag = ggore_on
@@ -163,6 +173,9 @@ country_event = { #Green Setting
 			}
 		}
 	}
+	option = {
+		name = ggori.4.a
+	}	
 }
 country_event = { #Blue Setting
 	id = ggori.5
@@ -171,9 +184,9 @@ country_event = { #Blue Setting
 	picture = GFX_report_event_election_vote
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
-	option = {
-		name = ggori.5.a
+	immediate = {
 		set_country_flag = GGORI_BLUE
 		set_country_flag = gui_alert_visible
 		set_country_flag = ggore_on
@@ -204,6 +217,9 @@ country_event = { #Blue Setting
 			}
 		}
 	}
+	option = {
+		name = ggori.5.a
+	}	
 }
 country_event = { #Purple Setting
 	id = ggori.6
@@ -212,9 +228,9 @@ country_event = { #Purple Setting
 	picture = GFX_report_event_election_vote
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
-	option = {
-		name = ggori.6.a
+	immediate = {
 		set_country_flag = GGORI_PURPLE
 		set_country_flag = gui_alert_visible
 		set_country_flag = ggore_on
@@ -245,6 +261,9 @@ country_event = { #Purple Setting
 			}
 		}
 	}
+	option = {
+		name = ggori.6.a
+	}	
 }
 country_event = { #Brown Setting
 	id = ggori.7
@@ -254,8 +273,7 @@ country_event = { #Brown Setting
 
 	is_triggered_only = yes
 
-	option = {
-		name = ggori.7.a
+	immediate = {
 		set_country_flag = GGORI_BROWN
 		set_country_flag = gui_alert_visible
 		set_country_flag = ggore_on
@@ -266,6 +284,9 @@ country_event = { #Brown Setting
 		}
 		
 	}
+	option = {
+		name = ggori.7.a
+	}	
 }
 country_event = { #Brown Setting
 	id = ggori.8
