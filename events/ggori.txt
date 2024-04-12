@@ -23,45 +23,6 @@ country_event = { #Red Setting
 			limit = {
 				#is_ai = no
 				is_puppet = no
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = GGORI_SETTING_RULE
-							option = GGORI_YES_EUROPE
-						}
-					}	
-					any_state = {
-						is_coastal = yes
-						is_on_continent = europe
-					}
-				}
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = GGORI_SETTING_RULE
-							option = GGORI_YES_ASIA
-						}
-					}	
-					any_state = {
-						is_coastal = yes
-						is_on_continent = asia
-					}
-				}
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = GGORI_SETTING_RULE
-							option = GGORI_YES_AMERICA
-						}
-					}	
-					any_state = {
-						is_coastal = yes
-						OR = {
-							is_on_continent = north_america
-							is_on_continent = south_america
-						}	
-					}
-				}
 				NOT = {
 					has_country_flag = GGORI_RED
 					has_country_flag = GGORI_ORANGE

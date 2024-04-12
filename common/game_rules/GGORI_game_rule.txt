@@ -2,19 +2,9 @@ GGORI_SETTING_RULE = {
 	name = "GGORI_SETTING_RULE"
 	group = "RULE_GGORI_ALL"
 	default = {
-		name = GGORI_YES_EUROPE
-		text = "RULE_OPTION_GGORI_YES_EUROPE"
-		desc = "RULE_OPTION_GGORI_YES_EUROPE_DESC"
-	}
-	option = {
-		name = GGORI_YES_ASIA
-		text = "RULE_OPTION_GGORI_YES_ASIA"
-		desc = "RULE_OPTION_GGORI_YES_ASIA_DESC"
-	}
-	option = {
-		name = GGORI_YES_AMERICA
-		text = "RULE_OPTION_GGORI_YES_AMERICA"
-		desc = "RULE_OPTION_GGORI_YES_AMERICA_DESC"
+		name = GGORI_YES
+		text = "RULE_OPTION_GGORI_YES"
+		desc = "RULE_OPTION_GGORI_YES_DESC"
 	}
 	option = {
 		name = GGORI_NOT
