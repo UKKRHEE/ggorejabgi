@@ -300,6 +300,37 @@ country_event = { #Brown Setting
 		name = ggori.8.a
 	}
 }
+##########
+country_event = { 
+	id = ggori.500
+	title = ggori.500.title
+	desc = ggori.500.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ggori.500.a
+		random_country = {
+			limit = {
+				is_ai = no
+				is_puppet = no
+				NOT = {
+					has_country_flag = GGORI_RED
+					has_country_flag = GGORI_ORANGE
+					has_country_flag = GGORI_YELLOW
+					has_country_flag = GGORI_GREEN
+					has_country_flag = GGORI_BLUE
+					has_country_flag = GGORI_PURPLE
+					has_country_flag = GGORI_BROWN
+				}
+			}
+			country_event = {
+				id = ggori.1
+			}
+		}
+	}
+}
 
 ###########
 country_event = { #꼬리잡기 목표 설명
