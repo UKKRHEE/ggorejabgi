@@ -19,22 +19,24 @@ country_event = { #Red Setting
 			value = THIS
 		}
 		
-		random_country = {
-			limit = {
-				#is_ai = no
-				is_puppet = no
-				NOT = {
-					has_country_flag = GGORI_RED
-					has_country_flag = GGORI_ORANGE
-					has_country_flag = GGORI_YELLOW
-					has_country_flag = GGORI_GREEN
-					has_country_flag = GGORI_BLUE
-					has_country_flag = GGORI_PURPLE
-					has_country_flag = GGORI_BROWN
+		hidden_effect = {
+			random_country = {
+				limit = {
+					is_ai = no
+					is_puppet = no
+					NOT = {
+						has_country_flag = GGORI_RED
+						has_country_flag = GGORI_ORANGE
+						has_country_flag = GGORI_YELLOW
+						has_country_flag = GGORI_GREEN
+						has_country_flag = GGORI_BLUE
+						has_country_flag = GGORI_PURPLE
+						has_country_flag = GGORI_BROWN
+					}
 				}
-			}
-			country_event = {
-				id = ggori.2
+				country_event = {
+					id = ggori.2
+				}
 			}
 		}
 	}
@@ -58,22 +60,24 @@ country_event = { #Orange Setting
 			value = THIS
 		}
 
-		random_country = {
-			limit = {
-				#is_ai = no
-				is_puppet = no
-				NOT = {
-					has_country_flag = GGORI_RED
-					has_country_flag = GGORI_ORANGE
-					has_country_flag = GGORI_YELLOW
-					has_country_flag = GGORI_GREEN
-					has_country_flag = GGORI_BLUE
-					has_country_flag = GGORI_PURPLE
-					has_country_flag = GGORI_BROWN
+		hidden_effect = {
+			random_country = {
+				limit = {
+					is_ai = no
+					is_puppet = no
+					NOT = {
+						has_country_flag = GGORI_RED
+						has_country_flag = GGORI_ORANGE
+						has_country_flag = GGORI_YELLOW
+						has_country_flag = GGORI_GREEN
+						has_country_flag = GGORI_BLUE
+						has_country_flag = GGORI_PURPLE
+						has_country_flag = GGORI_BROWN
+					}
 				}
-			}
-			country_event = {
-				id = ggori.3
+				country_event = {
+					id = ggori.3
+				}
 			}
 		}
 	}
@@ -97,22 +101,24 @@ country_event = { #Yellow Setting
 			value = THIS
 		}
 		
-		random_country = {
-			limit = {
-				#is_ai = no
-				is_puppet = no
-				NOT = {
-					has_country_flag = GGORI_RED
-					has_country_flag = GGORI_ORANGE
-					has_country_flag = GGORI_YELLOW
-					has_country_flag = GGORI_GREEN
-					has_country_flag = GGORI_BLUE
-					has_country_flag = GGORI_PURPLE
-					has_country_flag = GGORI_BROWN
+		hidden_effect = {
+			random_country = {
+				limit = {
+					is_ai = no
+					is_puppet = no
+					NOT = {
+						has_country_flag = GGORI_RED
+						has_country_flag = GGORI_ORANGE
+						has_country_flag = GGORI_YELLOW
+						has_country_flag = GGORI_GREEN
+						has_country_flag = GGORI_BLUE
+						has_country_flag = GGORI_PURPLE
+						has_country_flag = GGORI_BROWN
+					}
 				}
-			}
-			country_event = {
-				id = ggori.4
+				country_event = {
+					id = ggori.4
+				}
 			}
 		}
 	}
@@ -136,22 +142,24 @@ country_event = { #Green Setting
 			value = THIS
 		}
 
-		random_country = {
-			limit = {
-				#is_ai = no
-				is_puppet = no
-				NOT = {
-					has_country_flag = GGORI_RED
-					has_country_flag = GGORI_ORANGE
-					has_country_flag = GGORI_YELLOW
-					has_country_flag = GGORI_GREEN
-					has_country_flag = GGORI_BLUE
-					has_country_flag = GGORI_PURPLE
-					has_country_flag = GGORI_BROWN
+		hidden_effect = {
+			random_country = {
+				limit = {
+					is_ai = no
+					is_puppet = no
+					NOT = {
+						has_country_flag = GGORI_RED
+						has_country_flag = GGORI_ORANGE
+						has_country_flag = GGORI_YELLOW
+						has_country_flag = GGORI_GREEN
+						has_country_flag = GGORI_BLUE
+						has_country_flag = GGORI_PURPLE
+						has_country_flag = GGORI_BROWN
+					}
 				}
-			}
-			country_event = {
-				id = ggori.5
+				country_event = {
+					id = ggori.5
+				}
 			}
 		}
 	}
@@ -175,22 +183,24 @@ country_event = { #Blue Setting
 			value = THIS
 		}
 
-		random_country = {
-			limit = {
-				#is_ai = no
-				is_puppet = no
-				NOT = {
-					has_country_flag = GGORI_RED
-					has_country_flag = GGORI_ORANGE
-					has_country_flag = GGORI_YELLOW
-					has_country_flag = GGORI_GREEN
-					has_country_flag = GGORI_BLUE
-					has_country_flag = GGORI_PURPLE
-					has_country_flag = GGORI_BROWN
+		hidden_effect = {
+			random_country = {
+				limit = {
+					is_ai = no
+					is_puppet = no
+					NOT = {
+						has_country_flag = GGORI_RED
+						has_country_flag = GGORI_ORANGE
+						has_country_flag = GGORI_YELLOW
+						has_country_flag = GGORI_GREEN
+						has_country_flag = GGORI_BLUE
+						has_country_flag = GGORI_PURPLE
+						has_country_flag = GGORI_BROWN
+					}
 				}
-			}
-			country_event = {
-				id = ggori.6
+				country_event = {
+					id = ggori.6
+				}
 			}
 		}
 	}
@@ -214,22 +224,24 @@ country_event = { #Purple Setting
 			value = THIS
 		}
 
-		random_country = {
-			limit = {
-				#is_ai = no
-				is_puppet = no
-				NOT = {
-					has_country_flag = GGORI_RED
-					has_country_flag = GGORI_ORANGE
-					has_country_flag = GGORI_YELLOW
-					has_country_flag = GGORI_GREEN
-					has_country_flag = GGORI_BLUE
-					has_country_flag = GGORI_PURPLE
-					has_country_flag = GGORI_BROWN
+		hidden_effect = {
+			random_country = {
+				limit = {
+					is_ai = no
+					is_puppet = no
+					NOT = {
+						has_country_flag = GGORI_RED
+						has_country_flag = GGORI_ORANGE
+						has_country_flag = GGORI_YELLOW
+						has_country_flag = GGORI_GREEN
+						has_country_flag = GGORI_BLUE
+						has_country_flag = GGORI_PURPLE
+						has_country_flag = GGORI_BROWN
+					}
 				}
-			}
-			country_event = {
-				id = ggori.7
+				country_event = {
+					id = ggori.7
+				}
 			}
 		}
 	}
