@@ -74,6 +74,9 @@ scripted_gui = {
 							has_country_flag = GGORI_RED
 							exists = yes is_puppet = no
 						}
+						ROOT = {
+							is_red_targeting = yes
+						}
 					}
 					var:global.colors^0 = {
 						every_owned_state = {
@@ -121,6 +124,9 @@ scripted_gui = {
 						any_country = {
 							has_country_flag = GGORI_ORANGE
 							exists = yes is_puppet = no
+						}
+						ROOT = {
+							is_orange_targeting = yes
 						}
 					}
 					var:global.colors^1 = {
@@ -170,6 +176,9 @@ scripted_gui = {
 							has_country_flag = GGORI_YELLOW
 							exists = yes is_puppet = no
 						}
+						ROOT = {
+							is_yellow_targeting = yes
+						}
 					}
 					var:global.colors^2 = {
 						every_owned_state = {
@@ -217,6 +226,9 @@ scripted_gui = {
 						any_country = {
 							has_country_flag = GGORI_GREEN
 							exists = yes is_puppet = no
+						}
+						ROOT = {
+							is_green_targeting = yes
 						}
 					}
 					var:global.colors^3 = {
@@ -266,6 +278,9 @@ scripted_gui = {
 							has_country_flag = GGORI_BLUE
 							exists = yes is_puppet = no
 						}
+						ROOT = {
+							is_blue_targeting = yes
+						}
 					}
 					var:global.colors^4 = {
 						every_owned_state = {
@@ -313,6 +328,9 @@ scripted_gui = {
 						any_country = {
 							has_country_flag = GGORI_PURPLE
 							exists = yes is_puppet = no
+						}
+						ROOT = {
+							is_purple_targeting = yes
 						}
 					}
 					var:global.colors^5 = {
@@ -362,6 +380,9 @@ scripted_gui = {
 							has_country_flag = GGORI_BROWN
 							exists = yes is_puppet = no
 						}
+						ROOT = {
+							is_brown_targeting = yes
+						}
 					}
 					var:global.colors^6 = {
 						every_owned_state = {
@@ -403,6 +424,9 @@ scripted_gui = {
 							has_country_flag = GGORI_RED
 							exists = yes is_puppet = no
 						}
+						ROOT = {
+							is_red_targeting = yes
+						}
 					}
 					var:global.colors^0 = {
 						every_owned_state = {
@@ -442,6 +466,9 @@ scripted_gui = {
 						any_country = {
 							has_country_flag = GGORI_ORANGE
 							exists = yes is_puppet = no
+						}
+						ROOT = {
+							is_orange_targeting = yes
 						}
 					}
 					var:global.colors^1 = {
@@ -483,6 +510,9 @@ scripted_gui = {
 							has_country_flag = GGORI_YELLOW
 							exists = yes is_puppet = no
 						}
+						ROOT = {
+							is_yellow_targeting = yes
+						}
 					}
 					var:global.colors^2 = {
 						every_owned_state = {
@@ -522,6 +552,9 @@ scripted_gui = {
 						any_country = {
 							has_country_flag = GGORI_GREEN
 							exists = yes is_puppet = no
+						}
+						ROOT = {
+							is_green_targeting = yes
 						}
 					}
 					var:global.colors^3 = {
@@ -563,6 +596,9 @@ scripted_gui = {
 							has_country_flag = GGORI_BLUE
 							exists = yes is_puppet = no
 						}
+						ROOT = {
+							is_blue_targeting = yes
+						}
 					}
 					var:global.colors^4 = {
 						every_owned_state = {
@@ -603,6 +639,9 @@ scripted_gui = {
 							has_country_flag = GGORI_PURPLE
 							exists = yes is_puppet = no
 						}
+						ROOT = {
+							is_purple_targeting = yes
+						}
 					}
 					var:global.colors^5 = {
 						every_owned_state = {
@@ -642,6 +681,9 @@ scripted_gui = {
 						any_country = {
 							has_country_flag = GGORI_BROWN
 							exists = yes is_puppet = no
+						}
+						ROOT = {
+							is_brown_targeting = yes
 						}
 					}
 					var:global.colors^6 = {
