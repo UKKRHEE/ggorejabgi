@@ -12,3 +12,17 @@ GGORI_SETTING_RULE = {
 		desc = "RULE_OPTION_GGORI_NOT_DESC"
 	}
 }
+GGORI_BALKAN_RULE = {
+	name = "GGORI_BALKAN_RULE"
+	group = "RULE_GGORI_ALL"
+	default = {
+		name = BALKAN_NO
+		text = "RULE_OPTION_BALKAN_NO"
+		desc = "RULE_OPTION_BALKAN_NO_DESC"
+	}
+	option = {
+		name = BALKAN_YES
+		text = "RULE_OPTION_BALKAN_YES"
+		desc = "RULE_OPTION_BALKAN_YES_DESC"
+	}
+}

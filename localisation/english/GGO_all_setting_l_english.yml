@@ -44,6 +44,11 @@
  RULE_OPTION_GGORI_YES_DESC:0 "주의: 유저들이 선택한 국가만 꼬리잡기에 포함됩니다. 최대 7인까지 플레이 가능합니다."
  RULE_OPTION_GGORI_NOT:0 "사용 안함"
  RULE_OPTION_GGORI_NOT_DESC:0 "님 이럴거면 이거 왜 씀?"
+ GGORI_BALKAN_RULE:0 "발칸반도 전용 여부"
+ RULE_OPTION_BALKAN_NO:0 "미사용"
+ RULE_OPTION_BALKAN_NO_DESC:0 "전세계는 모두 살아있습니다."
+ RULE_OPTION_BALKAN_YES:0 "발칸반도 옵션"
+ RULE_OPTION_BALKAN_YES_DESC:0 "아돌프 히틀러는 MI6 지하실에 있습니다."
 
  ###########
  ggori.1.title:0 "빨간색"

@@ -329,6 +329,65 @@ country_event = {
 				id = ggori.1
 			}
 		}
+		
+		
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = GGORI_BALKAN_RULE
+					option = BALKAN_YES
+				}
+			}
+			GRE = {
+				transfer_state = 183
+			}
+			BUL = {
+				transfer_state = 77
+			}	
+			YUG = {
+				transfer_state = 163
+			}	
+			every_country = {
+				limit = {
+					NOT = {
+						original_tag = BUL
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = CZE
+						original_tag = AUS
+						original_tag = YUG
+						original_tag = ALB
+						original_tag = TUR
+						original_tag = GRE
+					}
+				}
+				save_event_target_as = GGORI_NOT_BALKAN
+			}
+			BHU = {
+				annex_country = {
+					target = event_target:GGORI_NOT_BALKAN
+					transfer_troops = no
+				}
+			}
+			every_state = {
+				limit = {
+					NOT = {
+						is_owned_by = BUL
+						is_owned_by = HUN
+						is_owned_by = ROM
+						is_owned_by = CZE
+						is_owned_by = AUS
+						is_owned_by = YUG
+						is_owned_by = ALB
+						is_owned_by = TUR
+						is_owned_by = GRE
+					}
+				}
+				set_state_owner_to = BHU
+				transfer_state_to = BHU
+				add_core_of = BHU
+			}
+		}
 	}
 }
 
